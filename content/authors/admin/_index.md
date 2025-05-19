@@ -88,7 +88,7 @@ work:
     company_name: Uber
     company_url: ''
     company_logo: ''
-    date_start: 2025-02
+    date_start: 2025
     date_end: ''
     #summary: |2-
     #  Responsibilities include:
