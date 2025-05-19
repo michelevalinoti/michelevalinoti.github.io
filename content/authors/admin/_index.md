@@ -142,11 +142,18 @@ skills:
         icon: camera
 
 languages:
-  - name: English
-    #percent: 100
-  - name: Italian
-    #percent: 75
-    #percent: 25
+  - name: Python
+    percent: 90
+  - name: R
+    percent: 80
+  - name: Julia
+    percent: 50
+  - name: MATLAB
+    percent: 50
+  - name: C++
+    percent: 20
+  - name: Java
+    percent: 20
 
 #   Awards
 #   Add/remove as many awards below as you like.
