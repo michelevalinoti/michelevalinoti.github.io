@@ -63,8 +63,8 @@ education:
       #url: 'https://example.com'
   - area: MA Economics
     institution: Collegio Carlo Alberto
-    date_start: 2019
-    date_end: 2017
+    date_start: 2017
+    date_end: 2019
     #summary: |
     #  GPA: 3.8/4.0
 
