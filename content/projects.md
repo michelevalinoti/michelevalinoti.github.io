@@ -1,6 +1,6 @@
 ---
 widget: portfolio
-headless: true  # This file represents a page section.
+headless: false  # This file represents a page section.
 
 title: Projects
 #date: 2024-05-19
