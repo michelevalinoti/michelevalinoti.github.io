@@ -14,8 +14,8 @@ content:
   filters:
     folders:
       - project
-    kinds:
-      - page
+    #kinds:
+    #  - page
 
   filter_button:
     - name: "All"
