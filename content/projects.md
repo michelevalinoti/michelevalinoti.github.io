@@ -1,14 +1,10 @@
 ---
-
 widget: portfolio
 headless: true  # This file represents a page section.
 
 title: Projects
 #date: 2024-05-19
 type: landing
-
-widget: portfolio
-headless: true 
 
 content:
   # Choose which content to display in the widget
