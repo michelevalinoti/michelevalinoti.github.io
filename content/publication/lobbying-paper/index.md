@@ -2,12 +2,12 @@
 title: "Intermediation in Matching Markets. Evidence from commercial lobbying."
 authors:
 - admin
-author_notes:
+author_notes: ""
 date: "2025-05-24T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-#publishDate: "2017-01-01T00:00:00Z"
+publishDate: ""
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
