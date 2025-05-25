@@ -19,16 +19,15 @@ content:
       - section
 
   filter_button:
-    - name: "All"
+    - name: All
       tag: "*"
-    - name: "Deep Learning"
+    - name: DeepLearning
       tag: "Deep Learning"
-    - name: "Other"
+    - name: Other
       tag: "Demo"
   filter_default: 0
 
 design:
-  columns: "1"
-  view: masonry
-  flip_alt_rows: false
+  view:    card-grid   # supported views: card-grid, list, masonry, etc.
+  columns: "2"
 ---
