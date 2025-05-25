@@ -1,8 +1,6 @@
 ---
-title: "Projects"
-type: landing
 widget: portfolio
-# headless: false is implicit
+headless: true
 
 # Your landing page sections - add as many different content blocks as you like
 sections:
@@ -18,7 +16,7 @@ sections:
         folders:
           - project
         kinds:
-          - sections
+          - section
 
       filter_button:
         - name: All
@@ -27,6 +25,7 @@ sections:
           tag: "Deep Learning"
         - name: Other
           tag: "Demo"
+
       filter_default: 0
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
