@@ -42,7 +42,7 @@ sections:
         Please reach out to collaborate 😃
     design:
       columns: '1'
-  - block: widget
+  - block: collection
     id: research
     content:
       file: publications
