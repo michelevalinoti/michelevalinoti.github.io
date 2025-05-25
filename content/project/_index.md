@@ -26,7 +26,7 @@ content:
       tag: "Demo"
   filter_default: 0
 
-esign:
+design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
   columns: '1'
   # Choose a listing view
