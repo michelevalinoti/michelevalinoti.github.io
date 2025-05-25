@@ -26,6 +26,10 @@ content:
       tag: "Demo"
   filter_default: 0
 
-design:
-  view:    masonry  # supported views: card-grid, list, masonry, etc.
----
+esign:
+  # Choose how many columns the section has. Valid values: '1' or '2'.
+  columns: '1'
+  # Choose a listing view
+  view: masonry
+  # For Showcase view, flip alternate rows?
+  flip_alt_rows: false
