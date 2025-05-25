@@ -8,11 +8,13 @@ main:
     url: /
     weight: 10
   - name: Research
-    url: /publication
+    url: /#papers
     weight: 11
   #- name: Talks
   #  url: /#talks
-  #  weight: 12
+  #  weight: 12- page
+      - section    # ← allow sections as well
+
   - name: News
     url: /#news
     weight: 13
