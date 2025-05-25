@@ -27,6 +27,5 @@ content:
   filter_default: 0
 
 design:
-  view:    card-grid   # supported views: card-grid, list, masonry, etc.
-  columns: "2"
+  view:    masonry  # supported views: card-grid, list, masonry, etc.
 ---

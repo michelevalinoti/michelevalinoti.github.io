@@ -52,7 +52,7 @@ sections:
           - publication
         exclude_featured: false
     design:
-      view: citation
+      view: portfolio
   - block: collection
     id: project
     content:
@@ -61,7 +61,7 @@ sections:
         folders:
           - project
     design:
-      view: portfolio
+      view: masonry
       columns: 1
   - block: collection
     id: news
