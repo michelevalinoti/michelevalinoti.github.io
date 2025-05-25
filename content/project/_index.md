@@ -18,7 +18,7 @@ sections:
         folders:
           - project
         kinds:
-          - page
+          - sections
 
       filter_button:
         - name: All
@@ -35,7 +35,7 @@ sections:
       view: masonry
       # For the Showcase view, do you want to flip alternate rows?
       flip_alt_rows: true
-      
+
 ---
 content:
   filters:
