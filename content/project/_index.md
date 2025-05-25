@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 type: landing
-widget: portfolio
+view: portfolio
 # headless: false is implicit
 
 content:
