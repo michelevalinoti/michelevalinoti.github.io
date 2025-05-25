@@ -42,17 +42,9 @@ sections:
         Please reach out to collaborate 😃
     design:
       columns: '1'
-  - block: collection
-    id: papers
+  - block: widget
     content:
-      title: Work in progress
-      text: ""
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      view: portfolio
+      file: publications
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:

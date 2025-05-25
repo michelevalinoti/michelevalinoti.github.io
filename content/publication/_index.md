@@ -1,12 +1,25 @@
 ---
-title: Work in progress
-cms_exclude: true
+title: "Work in progress"
+widget: publication        # ✅ tells Hugo “use the publication widget”
+type: landing              # optional; picks your landing‐page layout
+menu:
+  main:
+    identifier: publications
+    name: Publications
+    weight: 25
 
-# View.
-view: portfolio
+# Which folders under content/publication/ to include
+content:
+  filters:
+    folders:
+      - journal-article
+      - conference-paper
+      - preprint
+      - lobbying-paper
+    kinds:
+      - page
 
-# Optional header image (relative to `static/media/` folder).
-banner:
-  caption: ''
-  image: ''
+design:
+  view: card-grid          # or list, masonry, table
+  columns: "2"
 ---
