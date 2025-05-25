@@ -1,6 +1,6 @@
 ---
 title: "Work in progress"
-widget: publication        # ✅ tells Hugo “use the publication widget”
+widget: collection        
 type: landing              # optional; picks your landing‐page layout
 menu:
   main:
