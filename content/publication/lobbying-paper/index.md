@@ -3,7 +3,7 @@ title: "Intermediation in Matching Markets. Evidence from commercial lobbying."
 authors:
 - admin
 author_notes:
-date: "2025-05-26T00:00:00Z"
+date: "2025-05-24T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -12,7 +12,7 @@ doi: ""
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article-journal"]
+publication_types: ["manuscript"]
 
 # Publication name and optional abbreviated publication name.
 publication_short: ""
