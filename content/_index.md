@@ -42,7 +42,8 @@ sections:
         Please reach out to collaborate 😃
     design:
       columns: '1'
-  - block: collection
+  - block: widget
+    id: research
     content:
       file: publications
   - block: cta-card
