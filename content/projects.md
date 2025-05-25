@@ -4,12 +4,6 @@ type: landing
 widget: portfolio
 # headless: false is implicit
 
-menu:
-  main:
-    identifier: "project"
-    name: Projects
-    weight: 20
-
 content:
   filters:
     folders:
