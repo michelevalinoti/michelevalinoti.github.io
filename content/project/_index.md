@@ -6,7 +6,7 @@ widget: portfolio
 
 menu:
   main:
-    identifier: "projects"
+    identifier: "project"
     name: "Projects"
     weight: 20
 
