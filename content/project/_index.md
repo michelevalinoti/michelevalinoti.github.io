@@ -15,7 +15,7 @@ content:
     folders:
       - project
     kinds:
-      - page
+      - section
 
   filter_button:
     - name: "All"
