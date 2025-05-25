@@ -1,9 +1,15 @@
 ---
 title: "Work in progress"
-widget: collection        
-type: landing              # optional; picks your landing‐page layout
+type: landing
+widget: publication   # this invokes the publication widget here too
 
-# Which folders under content/publication/ to include
+menu:
+  main:
+    identifier: publications
+    name: Publications
+    url: /publication/
+    weight: 11
+
 content:
   filters:
     folders:
@@ -15,6 +21,7 @@ content:
       - page
 
 design:
-  view: card-grid          # or list, masonry, table
+  view:    card-grid  # supported: card-grid, list, masonry, table
   columns: "2"
+  
 ---

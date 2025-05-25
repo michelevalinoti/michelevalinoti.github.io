@@ -42,10 +42,9 @@ sections:
         Please reach out to collaborate 😃
     design:
       columns: '1'
-  - block: collection
-    id: research
+  - block: widget
     content:
-      file: publications
+      file: publication
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
