@@ -7,7 +7,7 @@ widget: portfolio
 menu:
   main:
     identifier: "project"
-    name: "Projects"
+    name: Projects
     weight: 20
 
 content:
@@ -16,7 +16,6 @@ content:
       - project
     kinds:
       - page
-      - section
 
   filter_button:
     - name: All
