@@ -44,7 +44,9 @@ sections:
       columns: '1'
   - block: widget
     content:
-      file: publication
+      widget: pages           # ← use the free “Pages” widget
+      headless: true
+    file: publication       # ← matches content/home/publication.md below
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:

@@ -1,11 +1,11 @@
 ---
 title: "Work in progress"
 type: landing
-widget: publication   # this invokes the publication widget here too
+widget: pages   # this invokes the publication widget here too
 
 menu:
   main:
-    identifier: publications
+    identifier: papers
     name: Publications
     url: /publication/
     weight: 11
@@ -23,5 +23,5 @@ content:
 design:
   view:    card-grid  # supported: card-grid, list, masonry, table
   columns: "2"
-  
+
 ---
