@@ -12,6 +12,5 @@ content:
 
 design:
   view: citation  # supported: card-grid, list, masonry, table
-  columns: "2"
-
+  columns: "1"
 ---
