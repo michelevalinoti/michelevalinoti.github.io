@@ -42,7 +42,7 @@ sections:
         Please reach out to collaborate 😃
     design:
       columns: '1'
-  - block: article-grid
+  - block: collection
     id: research
     content:
       filters:
@@ -51,7 +51,7 @@ sections:
         kinds:
           - page
     design:
-      view: list       # or card-grid, masonry, etc.
+      view: article-grid       # or card-grid, masonry, etc.
       columns: "2"
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
