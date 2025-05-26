@@ -1,6 +1,7 @@
 ---
 title: "Work in progress"
 type: landing
+headless: true
 widget: collection   # this invokes the publication widget here too
 
 content:
@@ -11,7 +12,7 @@ content:
       - page
 
 design:
-  view: citation  # supported: card-grid, list, masonry, table
+  view: compact  # supported: card-grid, list, masonry, table
   columns: "2"
 
 ---
