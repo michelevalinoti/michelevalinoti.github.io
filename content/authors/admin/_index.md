@@ -54,7 +54,7 @@ interests:
 education:
   - area: PhD Economics
     institution: New York University
-    date_start: August 2020
+    date_start: 'August 2020'
     date_end: ''
     summary: |
       Worked on 5 research projects spanning causal inference, structural estimation, NLP and LLMs. Research assistant for Giulia Brancaccio/Karam Kang (Economics) and Bryant Moy (Politics). Teaching assistant of Maths (MA) and Statistics (UG). Course assistant of Industrial Organization (UG) and Game Theory (PhD).
@@ -63,18 +63,18 @@ education:
       #url: 'https://example.com'
   - area: MA Economics
     institution: Collegio Carlo Alberto
-    date_start: October 2017
-    date_end: December 2019
+    date_start: 'October 2017'
+    date_end: 'December 2019'
     summary: Allievi Honors Program
-  - area: MS Stochastics and Data Science
+  - area: MSc Stochastics and Data Science
     institution: University of Turin
-    date_start: October 2017
-    date_end: December 2019
+    date_start: 'October 2017'
+    date_end: 'December 2019'
     summary: cum laude
   - area: BSc Phyisics
     institution: University of Turin
-    date_start: September 2014
-    date_end: December 2017
+    date_start: 'September 2014'
+    date_end: 'December 2017'
     summary: cum laude
 
 work:
@@ -82,7 +82,7 @@ work:
     company_name: Uber
     company_url: ''
     company_logo: ''
-    date_start: June 2025
+    date_start: 'June 2025'
     date_end: ''
     #summary: |2-
     #  Responsibilities include:
