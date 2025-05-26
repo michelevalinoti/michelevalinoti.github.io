@@ -13,10 +13,7 @@ menu:
 content:
   filters:
     folders:
-      - journal-article
-      - conference-paper
-      - preprint
-      - lobbying-paper
+      - publication
     kinds:
       - page
 
