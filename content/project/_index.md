@@ -35,7 +35,7 @@ sections:
       # For the Showcase view, do you want to flip alternate rows?
       flip_alt_rows: true
       
-    - block: collection
+  - block: collection
     id: section-1
     content:
       title: Dormant projects
@@ -63,7 +63,7 @@ sections:
       # For the Showcase view, do you want to flip alternate rows?
       flip_alt_rows: true
 
-    - block: collection
+  - block: collection
     id: section-1
     content:
       title: Pre-PhD
