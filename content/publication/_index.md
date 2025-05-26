@@ -1,8 +1,12 @@
 ---
 title: Work in progress
 cms_exclude: true
-header:
-  caption: ""
-  image: ""
-view: 2
+
+# View.
+view: citation
+
+# Optional header image (relative to `static/media/` folder).
+banner:
+  caption: ''
+  image: ''
 ---

@@ -45,14 +45,15 @@ sections:
   - block: collection
     id: research
     content:
+      title: Work in progress
+      text: ""
       filters:
         folders:
           - publication
         kinds:
           - page
     design:
-      view: compact       # or card-grid, masonry, etc.
-      columns: '1'
+      view: citation       # or card-grid, masonry, etc.
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
