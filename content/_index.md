@@ -42,7 +42,7 @@ sections:
         Please reach out to collaborate 😃
     design:
       columns: '1'
-  - block: portfolio
+  - block: article-grid
     id: research
     content:
       filters:
