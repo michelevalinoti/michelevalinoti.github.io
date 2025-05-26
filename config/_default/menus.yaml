@@ -9,7 +9,7 @@ main:
     weight: 10
   - name: Research
     identifier: research
-    url: /publication/
+    url: /#publication
     weight: 11
   #- name: Talks
   #  url: /#talks

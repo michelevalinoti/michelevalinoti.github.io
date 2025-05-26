@@ -1,8 +1,6 @@
 ---
 title: "Work in progress"
 type: landing
-headless: true
-widget: collection   # this invokes the publication widget here too
 cms_exclude: true
 
 content:
@@ -13,7 +11,7 @@ content:
       - page
 
 design:
-  view: 4  # supported: card-grid, list, masonry, table
-  columns: "1"
+  view: compact  # supported: card-grid, list, masonry, table
+  columns: '1'
 
 ---
