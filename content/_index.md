@@ -50,10 +50,9 @@ sections:
       filters:
         folders:
           - publication
-        kinds:
-          - page
+        exclude_featured: false
     design:
-      view: citation       # or card-grid, masonry, etc.
+      view: citation
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
