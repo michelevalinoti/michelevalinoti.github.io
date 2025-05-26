@@ -1,16 +1,9 @@
 ---
-title: "Work in progress"
-type: landing
-widget: collection   # this invokes the publication widget here too
+title: Work in progress
+cms_exclude: true
 
-content:
-  filters:
-    folders:
-      - publication
-    kinds:
-      - page
-
-design:
-  view: citation  # supported: card-grid, list, masonry, table
-  columns: "1"
+# Optional header image (relative to `static/media/` folder).
+banner:
+  caption: ''
+  image: ''
 ---
