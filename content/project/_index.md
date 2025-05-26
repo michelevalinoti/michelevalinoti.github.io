@@ -8,7 +8,7 @@ widget: portfolio
 sections:
   # A section to display blog posts
   - block: collection
-    id: section-1
+    id: phd-projects
     content:
       title: Research projects
       subtitle: 
@@ -29,14 +29,14 @@ sections:
       filter_default: 0
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '2'
+      columns: 2
       # Choose your content listing view - here we use the `showcase` view
       view: masonry
       # For the Showcase view, do you want to flip alternate rows?
       flip_alt_rows: true
       
   - block: collection
-    id: section-1
+    id: dormant-projects
     content:
       title: Dormant projects
       subtitle: 
@@ -57,14 +57,14 @@ sections:
       filter_default: 0
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '2'
+      columns: 2
       # Choose your content listing view - here we use the `showcase` view
       view: masonry
       # For the Showcase view, do you want to flip alternate rows?
       flip_alt_rows: true
 
   - block: collection
-    id: section-1
+    id: pre-phd
     content:
       title: Pre-PhD
       subtitle: 
@@ -85,7 +85,7 @@ sections:
       filter_default: 0
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '2'
+      columns: 2
       # Choose your content listing view - here we use the `showcase` view
       view: masonry
       # For the Showcase view, do you want to flip alternate rows?
