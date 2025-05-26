@@ -47,6 +47,7 @@ sections:
     content:
       title: Work in progress
       text: ""
+      page_type: talk
       filters:
         folders:
           - publication
