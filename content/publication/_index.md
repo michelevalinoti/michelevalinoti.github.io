@@ -1,7 +1,7 @@
 ---
 title: "Work in progress"
 type: landing
-widget: collection   # this invokes the publication widget here too
+widget: pages   # this invokes the publication widget here too
 
 content:
   filters:

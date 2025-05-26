@@ -42,7 +42,7 @@ sections:
         Please reach out to collaborate 😃
     design:
       columns: '1'
-  - block: collection
+  - block: pages
     id: research
     content:
       file: publication       # ← matches content/home/publication.md below
