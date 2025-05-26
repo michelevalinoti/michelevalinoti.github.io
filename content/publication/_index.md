@@ -1,17 +1,8 @@
 ---
-title: "Work in progress"
-type: landing
-cms_exclude: false
-
-content:
-  filters:
-    folders:
-      - publication
-    kinds:
-      - page
-
-design:
-  view: compact  # supported: card-grid, list, masonry, table
-  columns: '1'
-
+title: Work in progress
+cms_exclude: true
+header:
+  caption: ""
+  image: ""
+view: 2
 ---
