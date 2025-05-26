@@ -4,10 +4,8 @@ go 1.15
 
 require (
 	
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5 v5.9.8-0.20241012174104-661cadc17327
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2-0.20231209203044-d31adfedd40b
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind v0.3.1
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-core v0.3.1
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-seo v0.2.3
+	github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5 v5.9.7
+	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2-0.20231108141515-0478cf6921f9
+	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-reveal v1.1.2
 
 )
