@@ -11,7 +11,7 @@ content:
       - page
 
 design:
-  view: list  # supported: card-grid, list, masonry, table
+  view: citation  # supported: card-grid, list, masonry, table
   columns: "2"
 
 ---
