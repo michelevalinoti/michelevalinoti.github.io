@@ -32,31 +32,32 @@ role: PhD Candidate at NYU
 profiles:
   - icon: at-symbol
     url: 'mailto:michele.valinoti@nyu.edu'
-    label: E-mail Me
+    label: E-mail me
   #- icon: brands/x
   #  url: https://twitter.com/GetResearchDev
   #- icon: brands/instagram
   #  url: https://www.instagram.com/
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/michele-valinoti-b8a515196/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/michelevalinoti
   #- icon: academicons/google-scholar
   #  url: https://scholar.google.com/
   #- icon: academicons/orcid
   #  url: https://orcid.org/
 
 interests:
+  - Causal Inference
+  - Industrial Organization
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
 
 education:
   - area: PhD Economics
     institution: New York University
     date_start: 2020
     date_end: 2026
-    #summary: |
+    summary: |
+      Worked on 5 research projects. Research assistant for Giulia Brancaccio/Karam Kang and Bryant Moy. Teaching assistant of Maths (MA) and Statistics (UG).
     #  Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     #button:
       #text: 'Read Thesis'
@@ -83,6 +84,7 @@ education:
     #  - lorem ipsum dolor sit amet, consectetur adipiscing elit
     #  - lorem ipsum dolor sit amet, consectetur adipiscing elit
     #  - lorem ipsum dolor sit amet, consectetur adipiscing elit
+
 work:
   - position: Scientist PhD Intern
     company_name: Uber
