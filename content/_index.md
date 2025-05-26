@@ -47,7 +47,6 @@ sections:
     content:
       title: Work in progress
       text: ""
-      page_type: post
       filters:
         folders:
           - publication
