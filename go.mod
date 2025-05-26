@@ -1,4 +1,4 @@
-module github.com/HugoBlox/hugo-blox-builder/starters/
+module github.com/HugoBlox/hugo-blox-builder/starters
 
 go 1.19
 
