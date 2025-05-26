@@ -1,7 +1,7 @@
 ---
 title: "Work in progress"
 type: landing
-cms_exclude: true
+cms_exclude: false
 
 content:
   filters:
