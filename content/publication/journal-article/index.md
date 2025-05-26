@@ -1,8 +1,8 @@
 ---
-title: "An example journal article"
+title: "Gender"
 authors:
 - admin
-- Robert Ford
+- Sahar
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
