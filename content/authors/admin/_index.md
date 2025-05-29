@@ -69,12 +69,12 @@ education:
   - area: MSc Stochastics and Data Science
     institution: University of Turin
     date_start: 'October 2017'
-    date_end: 'December 2019'
+    date_end: 2019-12-01
     summary: cum laude
   - area: BSc Phyisics
     institution: University of Turin
-    date_start: 'September 2014'
-    date_end: 'December 2017'
+    date_start: 2014-09-01
+    date_end: 2017-12-01
     summary: cum laude
 
 work:
@@ -82,7 +82,7 @@ work:
     company_name: Uber
     company_url: ''
     company_logo: ''
-    date_start: June 2025
+    date_start: 2025-06-01
     date_end: ''
     #summary: |2-
     #  Responsibilities include:
