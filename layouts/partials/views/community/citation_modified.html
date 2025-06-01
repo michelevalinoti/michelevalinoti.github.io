@@ -10,7 +10,6 @@
   <span class="article-metadata li-cite-author">
     {{ partial "page_metadata_authors" $item }}
   </span>
-
   <a href="{{ $item.RelPermalink }}" class="underline">{{ $item.Title }}</a>.
   {{ if $item.Params.publication_short }}
     {{- $item.Params.publication_short | markdownify -}}.
