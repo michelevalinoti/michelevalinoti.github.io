@@ -17,9 +17,9 @@ sections:
       #text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
       filters:
         folders:
-          - project/research
-        kinds:
-          - page
+          - project
+        categories:
+          - research
     design:
       view: article-grid
       fill_image: false
@@ -33,8 +33,8 @@ sections:
       filters:
         folders:
           - project
-        kinds:
-          - page
+        categories:
+          - dormant
     design:
       view: article-grid
       fill_image: false
@@ -48,8 +48,9 @@ sections:
       filters:
         folders:
           - project
-        kinds:
-          - page
+        categories:
+          - pre-phd
+      
     design:
       view: article-grid
       fill_image: false
