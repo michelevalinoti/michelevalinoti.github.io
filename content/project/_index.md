@@ -29,7 +29,7 @@ sections:
       filter_default: 0
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '2'
+      columns: 3
       # Choose your content listing view - here we use the `showcase` view
       view: card
       # For the Showcase view, do you want to flip alternate rows?
@@ -57,7 +57,7 @@ sections:
       filter_default: 0
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '2'
+      columns: 3
       # Choose your content listing view - here we use the `showcase` view
       view: card
       # For the Showcase view, do you want to flip alternate rows?
@@ -85,7 +85,7 @@ sections:
       filter_default: 0
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '2'
+      columns: 3
       # Choose your content listing view - here we use the `showcase` view
       view: card
       # For the Showcase view, do you want to flip alternate rows?
