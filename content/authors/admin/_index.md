@@ -54,7 +54,7 @@ interests:
 education:
   - area: PhD Economics
     institution: New York University
-    date_start: 'August 2020'
+    date_start: August 2020
     date_end: ''
     summary: |
       Worked on 5 research projects spanning causal inference, structural estimation, NLP and LLMs. Research assistant for Giulia Brancaccio/Karam Kang (Economics) and Bryant Moy (Politics). Teaching assistant of Maths (MA) and Statistics (UG). Course assistant of Industrial Organization (UG) and Game Theory (PhD).
