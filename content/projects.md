@@ -18,6 +18,8 @@ sections:
       filters:
         folders:
           - project/research
+        kinds:
+          - page
     design:
       view: article-grid
       fill_image: false
@@ -31,6 +33,8 @@ sections:
       filters:
         folders:
           - project
+        kinds:
+          - page
     design:
       view: article-grid
       fill_image: false
@@ -44,7 +48,8 @@ sections:
       filters:
         folders:
           - project
-      
+        kinds:
+          - page
     design:
       view: article-grid
       fill_image: false
