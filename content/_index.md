@@ -52,7 +52,7 @@ sections:
           - publication
         exclude_featured: false
     design:
-      view: citation_modified
+      view: card
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
