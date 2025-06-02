@@ -1,14 +1,12 @@
 ---
 title: Learning
-date: 2023-10-26
+date: 2019-03-19
 external_link: https://github.com/michelevalinoti/Learning-Dynamic-Data-Markets
 tags:
+  - Dynamic Programming
   - Java
-  - Revenue Management
 categories:
   - pre-phd
 ---
 
 MS Thesis
-
-<!--more-->

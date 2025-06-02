@@ -5,7 +5,7 @@
     <link>http://localhost:1313/categories/dormant/</link>
       <atom:link href="http://localhost:1313/categories/dormant/index.xml" rel="self" type="application/rss+xml" />
     <description>Dormant</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 25 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 Sep 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu7729264130191091259.png</url>
       <title>Dormant</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Tying the knot</title>
       <link>http://localhost:1313/project/marriages-project/</link>
-      <pubDate>Wed, 25 Dec 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/project/marriages-project/</guid>
       <description>&lt;p&gt;A pipeline using LLMs to read and extract information from images of handwritten marriage records in 1800s Italy.&lt;/p&gt;</description>
     </item>

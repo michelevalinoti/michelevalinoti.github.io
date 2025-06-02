@@ -1,6 +1,6 @@
 ---
 title: Women, Media and Politics (with S. Parsa)
-date: ''
+date: 2024-10-11
 external_link: ''
 categories:
   - research

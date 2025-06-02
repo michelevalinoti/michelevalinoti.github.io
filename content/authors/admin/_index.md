@@ -57,7 +57,11 @@ education:
     date_start: 2020-08-01
     date_end: ''
     summary: |
-      Worked on 5 research projects spanning causal inference, structural estimation, NLP and LLMs. Research assistant for Giulia Brancaccio/Karam Kang (Economics) and Bryant Moy (Politics). Teaching assistant of Maths (MA) and Statistics (UG). Course assistant of Industrial Organization (UG) and Game Theory (PhD).
+      Worked on 5 research projects spanning causal inference, structural estimation, NLP and LLMs.
+
+      Research assistant for Giulia Brancaccio/Karam Kang (Economics) and Bryant Moy (Politics).
+
+      Teaching assistant of Maths (MA) and Statistics (UG). Course assistant of Industrial Organization (UG) and Game Theory (PhD).
     #button:
       #text: 'Read Thesis'
       #url: 'https://example.com'
@@ -89,12 +93,12 @@ work:
     #  - lorem ipsum dolor sit amet, consectetur adipiscing elit
     #  - lorem ipsum dolor sit amet, consectetur adipiscing elit
     #  - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  #- position: Backend Software Engineer
-  #  company_name: X
+  - position: Risk Analyst Trainee
+    company_name: European Central Bank
   #  company_url: ''
   #  company_logo: ''
-  #  date_start: 2016-01-01
-  #  date_end: 2020-12-31
+    date_start: 2020-01-01
+    date_end: 2020-07-31
   #  summary: |
   #    Responsibilities include:
   #    - Migrated infrastructure to a new data center

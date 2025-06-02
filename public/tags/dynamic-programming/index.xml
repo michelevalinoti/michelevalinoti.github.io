@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dynamic Programming | Hugo Academic CV Theme</title>
+    <link>http://localhost:1313/tags/dynamic-programming/</link>
+      <atom:link href="http://localhost:1313/tags/dynamic-programming/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dynamic Programming</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 19 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu7729264130191091259.png</url>
+      <title>Dynamic Programming</title>
+      <link>http://localhost:1313/tags/dynamic-programming/</link>
+    </image>
+    
+    <item>
+      <title>Learning</title>
+      <link>http://localhost:1313/project/learning-project/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/learning-project/</guid>
+      <description>&lt;p&gt;MS Thesis&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
