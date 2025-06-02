@@ -20,6 +20,8 @@ sections:
           - project
         categories:
           - research
+        kinds:
+          - page
     design:
       view: article-grid
       fill_image: false
@@ -35,6 +37,8 @@ sections:
           - project
         categories:
           - dormant
+        kinds:
+          - page
     design:
       view: article-grid
       fill_image: false
@@ -50,7 +54,8 @@ sections:
           - project
         categories:
           - pre-phd
-      
+        kinds:
+          - page
     design:
       view: article-grid
       fill_image: false
