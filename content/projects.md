@@ -10,7 +10,6 @@ design:
 # Page sections
 sections:
   - block: collection
-    id: phd-projects
     content:
       title: Research projects
       subtitle: 
@@ -18,16 +17,14 @@ sections:
       filters:
         folders:
           - project
-        categories:
-          - research
+        category: research
         kinds:
           - page
     design:
       view: article-grid
       fill_image: false
-      columns: 3
+      columns: 2
   - block: collection
-    id: dormant-projects
     content:
       title: Dormant projects
       subtitle: 
@@ -35,16 +32,14 @@ sections:
       filters:
         folders:
           - project
-        categories:
-          - dormant
+        category: dormant
         kinds:
           - page
     design:
       view: article-grid
       fill_image: false
-      columns: 3
+      columns: 2
   - block: collection
-    id: pre-phd
     content:
       title: Pre-PhD
       subtitle: 
@@ -52,12 +47,11 @@ sections:
       filters:
         folders:
           - project
-        categories:
-          - pre-phd
+        category: pre-phd
         kinds:
           - page
     design:
       view: article-grid
       fill_image: false
-      columns: 3
+      columns: 2
 ---
