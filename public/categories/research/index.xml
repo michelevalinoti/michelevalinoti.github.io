@@ -13,11 +13,20 @@
     </image>
     
     <item>
-      <title>Women</title>
-      <link>http://localhost:1313/project/pandas/</link>
+      <title>Lobbying</title>
+      <link>http://localhost:1313/project/lobbying-project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/pandas/</guid>
+      <guid>http://localhost:1313/project/lobbying-project/</guid>
       <description>&lt;p&gt;Project that&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Women, Media and Politics (with S. Parsa)</title>
+      <link>http://localhost:1313/project/gender-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/gender-project/</guid>
+      <description>&lt;p&gt;We extract paragraphs discussing politicians running for elections in a corpus of 1M+ articles from 1980 to 2021, and document&lt;/p&gt;
 </description>
     </item>
     

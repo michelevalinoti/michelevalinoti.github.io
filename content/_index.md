@@ -16,8 +16,8 @@ sections:
       text: ""
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: Download CV
-        url: uploads/resume.pdf
+        text: CV
+        url: #uploads/resume.pdf
     design:
       css_class: dark
       background:
@@ -30,14 +30,14 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: markdown
-    content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        I am
-    design:
-      columns: '1'
+  #- block: markdown
+  #  content:
+  #    title: 'About me'
+  #    subtitle: ''
+  #    text: |-
+  #      I am
+  #  design:
+  #    columns: '1'
   - block: collection
     id: research
     content:

@@ -10,8 +10,8 @@ first_name: Michele
 last_name: Valinoti
 
 # Status emoji
-status:
-  icon: ☕️
+#status:
+#  icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
@@ -71,7 +71,7 @@ education:
     date_start:  2017-10-01
     date_end: 2019-12-01
     summary: cum laude
-  - area: BSc Phyisics
+  - area: BSc Physics
     institution: University of Turin
     date_start: 2014-09-01
     date_end: 2017-12-01
@@ -109,31 +109,27 @@ skills:
       - name: Python
         description: ''
         percent: 80
-        icon: code-bracket
-      - name: Data Science
+        #icon: code-bracket
+      - name: R
         description: ''
         percent: 100
-        icon: chart-bar
+        #icon: chart-bar
       - name: SQL
         description: ''
         percent: 40
-        icon: circle-stack
-  - name: Hobbies
+        #icon: circle-stack
+  - name: Languages
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: English
         description: ''
         percent: 60
-        icon: person-simple-walk
-      - name: Cats
+        #icon: person-simple-walk
+      - name: Italian
         description: ''
         percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+        #icon: cat
 
 languages:
   - name: Python

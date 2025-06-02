@@ -14,9 +14,9 @@
     
     <item>
       <title>Tying the knot</title>
-      <link>http://localhost:1313/project/pytorch/</link>
+      <link>http://localhost:1313/project/marriages-project/</link>
       <pubDate>Wed, 25 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/pytorch/</guid>
+      <guid>http://localhost:1313/project/marriages-project/</guid>
       <description>&lt;p&gt;A pipeline using LLMs to read and extract information from images of handwritten marriage records in 1800s Italy.&lt;/p&gt;</description>
     </item>
     
