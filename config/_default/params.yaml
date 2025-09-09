@@ -5,7 +5,7 @@
 
 # Appearance
 appearance:
-  mode: light
+  mode: dark
   color: zinc
 
 # SEO
@@ -17,7 +17,7 @@ marketing:
     description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
     twitter: 'GetResearchDev'
   analytics:
-    google_analytics: ''
+    google_analytics: 'G-HET9SMQT4H'
     baidu_tongji: ''
     plausible: ''
     fathom: ''
@@ -36,6 +36,8 @@ header:
     show_theme_chooser: true
     logo:
       text: "Michele Valinoti"
+      # Logo filename in `assets/media/` folder
+      filename: "logo.svg"
 
 # Site footer
 footer:
