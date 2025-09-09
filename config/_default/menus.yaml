@@ -9,8 +9,8 @@ main:
     weight: 10
   - name: Research
     identifier: research
-    url: /#research
-    weight: 11
+    url: /research/
+    weight: 20
   #- name: Talks
   #  url: /#talks
   #  weight: 12
@@ -19,10 +19,10 @@ main:
   #  weight: 13
   - name: Experience
     url: /experience/
-    weight: 20
+    weight: 15
   - name: Projects
-    url: projects/
+    url: /projects/
     weight: 30
-  #- name: Teaching
-  #  url: teaching/
-  #  weight: 40
+  - name: Teaching
+    url: /teaching/
+    weight: 40
