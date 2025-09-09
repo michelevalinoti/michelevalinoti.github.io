@@ -85,9 +85,9 @@ work:
   - position: Scientist PhD Intern
     company_name: Uber
     company_url: ''
-    company_logo: ''
-    date_start: 2025-06-01
-    date_end: ''
+    company_logo: 'assets/media/uber-logo.svg'
+    date_start: 2025-06-02
+    date_end: 2025-08-22
     #summary: |2-
     #  Responsibilities include:
     #  - lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -96,7 +96,7 @@ work:
   - position: Risk Analyst Trainee
     company_name: European Central Bank
   #  company_url: ''
-  #  company_logo: ''
+    company_logo: 'assets/media/ecb-logo.svg'
     date_start: 2020-01-01
     date_end: 2020-07-31
   #  summary: |
@@ -169,4 +169,6 @@ awards:
 
 ## About Me
 
-I am
+I am a sixth-year PhD student in Economics at NYU. Before joining the PhD program, I studied Physics, Economics, and Data Science in Turin, Italy.
+
+In Summer 2025, I was a Scientist Intern in the Membership Science Team at Uber in San Francisco, CA.

@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: dark
-  color: zinc
+  color: emerald
 
 # SEO
 marketing:
@@ -36,9 +36,9 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: "Michele Valinoti"
+      text: ""
       # Logo filename in `assets/media/` folder
-      filename: "logo.svg"
+      filename: ""
 
 # Site footer
 footer:
