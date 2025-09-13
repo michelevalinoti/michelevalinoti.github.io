@@ -36,7 +36,7 @@ sections:
         <a class="btn btn-secondary btn-lg w-full sm:w-auto" href="/uploads/resume.pdf">
           Academic CV
         </a>
-      </div>
+        </div>
 
 
   - block: cta-card
