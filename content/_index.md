@@ -26,32 +26,22 @@ sections:
           size: cover
           position: center
           parallax: false
-  #- block: markdown
-  #  content:
-  #    title: 'About me'
-  #    subtitle: ''
-  #    text: |-
-  #      I am
-  #  design:
-  #    columns: '1'
-  - block: buttons
+  - block: markdown
     content:
-      buttons:
-        - title: Resume
-          url: uploads/resume.pdf
-        - title: Academic CV
-          url: uploads/resume.pdf
-  - block: collection
-    id: research
+      text: |
+        <div class="flex gap-3 mt-4">
+          <a class="btn btn-primary" href="/uploads/resume.pdf">Resume</a>
+          <a class="btn btn-secondary" href="/uploads/academic_cv.pdf">Academic CV</a>
+        </div>
+  - block: markdown
     content:
-      title: Work in progress
-      text: ""
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      view: community/citation_modified
+      title: 'About me'
+      subtitle: ''
+      text: |-
+        I am
+      design:
+      columns: '1'
+
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
