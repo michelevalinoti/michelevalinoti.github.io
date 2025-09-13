@@ -59,9 +59,9 @@ education:
     summary: |
       Worked on 5 research projects spanning causal inference, structural estimation, NLP and LLMs.
 
-      Research assistant for Giulia Brancaccio/Karam Kang (Economics) and Bryant Moy (Politics).
+      Research Assistant for Giulia Brancaccio/Karam Kang (Economics) and Bryant Moy (Politics).
 
-      Teaching assistant of Maths (MA) and Statistics (UG). Course assistant of Industrial Organization (UG) and Game Theory (PhD).
+      Teaching Assistant of Maths (MA) and Statistics (UG). Course assistant of Industrial Organization (UG), Game Theory (PhD) and Money & Banking (UG).
     #button:
       #text: 'Read Thesis'
       #url: 'https://example.com'
@@ -154,7 +154,7 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
+  - title:
     url: ""
     date: '2020-2025'
     awarder: NYU
@@ -169,6 +169,10 @@ awards:
 
 ## About Me
 
-I am a sixth-year PhD student in Economics at NYU. Before joining the PhD program, I studied Physics, Economics, and Data Science in Turin, Italy.
+I am a sixth-year PhD student in Economics at NYU. In my work, I use complex data (texts, images, network) to answer questions in Economics and Political Science using a variety of economics and data science tools. Before joining the PhD program, I studied Physics, Economics, and Data Science in Turin, Italy.
 
 In Summer 2025, I was a Scientist Intern in the Membership Science Team at Uber in San Francisco, CA.
+
+I will be graduating in 2026, and will be seeking (Applied/Research/Data) Scientist tech roles in the United States. 
+
+Feel free to reach out at michele dot valinoti at nyu dot edu.
