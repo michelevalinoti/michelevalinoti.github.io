@@ -176,3 +176,8 @@ In Summer 2025, I was a Scientist Intern in the Membership Science Team at Uber 
 I will be graduating in 2026, and will be seeking (Applied/Research/Data) Scientist tech roles in the United States. 
 
 Feel free to reach out at michele dot valinoti at nyu dot edu.
+
+<div class="flex gap-3 mt-4">
+  <a class="btn btn-primary" href="/uploads/resume.pdf">Resume</a>
+  <a class="btn btn-secondary" href="/uploads/resume.pdf">Academic CV</a>
+</div>

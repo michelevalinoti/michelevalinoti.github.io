@@ -33,14 +33,6 @@ sections:
           <a class="btn btn-primary" href="/uploads/resume.pdf">Resume</a>
           <a class="btn btn-secondary" href="/uploads/resume.pdf">Academic CV</a>
         </div>
-  - block: markdown
-    content:
-      title: 'About me'
-      subtitle: ''
-      text: |-
-        I am
-      design:
-      columns: '1'
 
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
