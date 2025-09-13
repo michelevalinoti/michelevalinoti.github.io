@@ -31,7 +31,7 @@ sections:
       text: |
         <div class="flex gap-3 mt-4">
           <a class="btn btn-primary" href="/uploads/resume.pdf">Resume</a>
-          <a class="btn btn-secondary" href="/uploads/academic_cv.pdf">Academic CV</a>
+          <a class="btn btn-secondary" href="/uploads/resume.pdf">Academic CV</a>
         </div>
   - block: markdown
     content:
