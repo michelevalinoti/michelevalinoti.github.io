@@ -14,12 +14,6 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       text: ""
-      # Show a call-to-action button under your biography? (optional)
-      buttons:
-        - text: Resume
-          url: uploads/resume.pdf
-        - text: Academic CV
-          url: uploads/resume.pdf
     design:
       css_class: dark
       background:
@@ -40,6 +34,13 @@ sections:
   #      I am
   #  design:
   #    columns: '1'
+  - block: buttons
+    content:
+      buttons:
+        - title: Resume
+          url: uploads/resume.pdf
+        - title: Academic CV
+          url: uploads/resume.pdf
   - block: collection
     id: research
     content:
