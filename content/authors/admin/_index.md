@@ -177,7 +177,11 @@ I will be graduating in 2026, and will be seeking (Applied/Research/Data) Scient
 
 Feel free to reach out at michele dot valinoti at nyu dot edu.
 
-<div class="flex gap-3 mt-4">
-  <a class="btn btn-primary" href="/uploads/resume.pdf">Resume</a>
-  <a class="btn btn-secondary" href="/uploads/resume.pdf">Academic CV</a>
+<div class="flex flex-col sm:flex-row gap-4 mt-6">
+        <a class="btn btn-primary btn-lg w-full sm:w-auto" href="/uploads/resume.pdf">
+          Resume
+        </a>
+        <a class="btn btn-secondary btn-lg w-full sm:w-auto" href="/uploads/resume.pdf">
+          Academic CV
+        </a>
 </div>
