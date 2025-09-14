@@ -182,7 +182,7 @@ Feel free to reach out at michele dot valinoti at nyu dot edu.
      class="block w-full sm:w-auto px-6 py-4 rounded-lg bg-gray-200 text-black hover:text-green-800 text-center text-lg font-semibold shadow">
     Resume
   </a>
-  <a href="/uploads/resume.pdf" 
+  <a href="/uploads/AcademicCV.pdf" 
      class="block w-full sm:w-auto px-6 py-4 rounded-lg bg-gray-200 text-black hover:text-green-800 text-center text-lg font-semibold shadow">
     Academic CV
   </a>
