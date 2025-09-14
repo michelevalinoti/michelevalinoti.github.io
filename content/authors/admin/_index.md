@@ -179,11 +179,11 @@ Feel free to reach out at michele dot valinoti at nyu dot edu.
 
 <div class="flex flex-col sm:flex-row gap-4 mt-6">
   <a href="/uploads/resume.pdf" 
-      class="block w-full sm:w-auto px-6 py-4 rounded-lg bg-gray-200 hover:bg-gray-300 text-center text-lg font-semibold shadow">
+     class="block w-full sm:w-auto px-6 py-4 rounded-lg bg-gray-200 text-black hover:text-green-800 text-center text-lg font-semibold shadow">
     Resume
   </a>
   <a href="/uploads/resume.pdf" 
-      class="block w-full sm:w-auto px-6 py-4 rounded-lg bg-gray-200 hover:bg-gray-300 text-center text-lg font-semibold shadow">
+     class="block w-full sm:w-auto px-6 py-4 rounded-lg bg-gray-200 text-black hover:text-green-800 text-center text-lg font-semibold shadow">
     Academic CV
   </a>
 </div>
