@@ -85,10 +85,13 @@ work:
   - position: Scientist PhD Intern
     company_name: Uber
     company_url: ''
-    company_logo: 'assets/media/uber-logo.svg'
+    company_logo: assets/media/uber-logo.svg
     date_start: 2025-06-02
     date_end: 2025-08-22
-    #summary: |2-
+    summary: |
+      PhD Internship in the Membership Science Team at Uber in San Francisco, CA.
+
+      Deployed and refined a membership model by building SQL ingestion pipelines, scaling estimation in PySpark, and delivering automated reporting for stakeholders.
     #  Responsibilities include:
     #  - lorem ipsum dolor sit amet, consectetur adipiscing elit
     #  - lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -96,10 +99,14 @@ work:
   - position: Risk Analyst Trainee
     company_name: European Central Bank
   #  company_url: ''
-    company_logo: 'assets/media/ecb-logo.svg'
+    company_logo: assets/media/ecb-logo.svg
     date_start: 2020-01-01
     date_end: 2020-07-31
-  #  summary: |
+    summary: |
+      Internship in the Risk Analysis Team of the ECB in Frankfurt, Germany.
+
+      Ran daily and weekly monitoring tasks, identified potential flags, and communicated with stakeholders at national central banks.
+
   #    Responsibilities include:
   #    - Migrated infrastructure to a new data center
   #    - lorem ipsum dolor sit amet, consectetur adipiscing elit
