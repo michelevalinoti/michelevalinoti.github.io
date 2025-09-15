@@ -184,7 +184,7 @@ I will be graduating in 2026, and will be seeking (Applied/Research/Data) Scient
 Feel free to reach out at <code>michele [dot] valinoti [at] nyu [dot] edu</code>.
 
 <div class="flex flex-col sm:flex-row gap-4 mt-6">
-  <a href="/uploads/Valinoti_Sep25.pdf" 
+  <a href="/uploads/Valinoti_Sep2025.pdf" 
      class="block w-full sm:w-auto px-6 py-4 rounded-lg bg-gray-200 text-black hover:text-green-800 text-center text-lg font-semibold shadow">
     Resume
   </a>
