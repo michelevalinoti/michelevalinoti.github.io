@@ -6,6 +6,4 @@ categories:
   - research
 tags:
   - Matching Models
-  
 ---
-Project that

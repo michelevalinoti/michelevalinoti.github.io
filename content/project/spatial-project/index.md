@@ -8,7 +8,4 @@ tags:
 categories:
   - dormant
 ---
-
-#Scraped product availability of restaurants in NYC 
-
 <!--more-->
