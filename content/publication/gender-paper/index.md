@@ -16,13 +16,13 @@ publishDate: 2025-05-30
 publication_types: ["manuscript"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: '*with Sahar Parsa*'
+publication: "Draft coming soon"
+publication_short: '*with Sahar Parsa*' 
 
-abstract: This paper investigates the persistent gender disparities in media coverage of political candidates in the United States from 1980 to 2021. Using a novel dataset that combines detailed electoral records with over one million newspaper articles, we provide a comprehensive analysis of how female and male candidates are represented in the media during election campaigns for congressional, gubernatorial, and mayoral offices. We document three key findings. First, women candidates consistently receive more media coverage than their male counterparts. Second, using state-of-the art sentence transformers, we show that the qualitative content and tone of coverage differ systematically by gender, even after controlling for incumbency and office type. In next steps, we decompose the differences between the embedding representations among semantic, topic and style choices of their respective publishers.
+abstract: This paper investigates the persistent gender disparities in media coverage of political candidates in the United States from 1980 to 2021. Using a novel dataset that combines detailed electoral records with over one million newspaper articles, we provide a comprehensive analysis of how female and male candidates are represented in the media during election campaigns for congressional, gubernatorial, and mayoral offices. We document three key findings. First, women candidates consistently receive more media coverage than their male counterparts. Second, using coreference resolution and state-of-the-art sentence transformers, we show that the qualitative content and tone of coverage differ systematically by gender, even after controlling for incumbency, vote share, and office type. In a third step, we decompose the differences between the embedding representations among semantic, topic, and style choices of their respective publishers.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary:
 
 tags:
 - Source Themes
