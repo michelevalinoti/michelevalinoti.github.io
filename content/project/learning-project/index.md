@@ -1,5 +1,5 @@
 ---
-title: Learning
+title: The Effects of Learning in Dynamic Data Markets
 date: 2019-03-19
 external_link: https://github.com/michelevalinoti/Learning-Dynamic-Data-Markets
 tags:

@@ -26,8 +26,8 @@ publishDate: 2025-05-29
 publication_types: ['manuscript']
 
 # Publication name and optional abbreviated publication name.
-publication: "Draft coming soon"
-publication_short: '*with Bryant Moy and Moin Khan*'
+publication: ""
+publication_short: '*with Bryant Moy and Moin Khan*. Draft coming soon.'
 
 abstract: "We construct the first comprehensive national database of Criminal Activity Nuisance Ordinances (CANOs), a class of municipal laws that penalize property owners for repeated police interactions. The database is built through a multi-stage process that combines large-scale web scraping of municipal codes from major legal repositories with targeted manual collection from city websites. We define a CANO using a legally grounded typology based on language linking resident behavior to owner liability. To classify ordinances at scale, we apply large language models to identify relevant provisions: the resulting dataset covers thousands of municipalities and captures both the presence of CANOs and the legal features that characterize their intensity. This infrastructure supports new empirical work on the prevalence and design of discriminatory local policies."
 
