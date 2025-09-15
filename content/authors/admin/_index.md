@@ -181,7 +181,7 @@ In Summer 2025, I worked as a Scientist Intern on the Membership Science Team at
 
 I will be graduating in 2026, and will be seeking (Applied/Research/Data) Scientist tech roles in the United States. 
 
-Feel free to reach out at <p><code>michele [dot] valinoti [at] nyu [dot] edu</code></p>.
+Feel free to reach out at <code>michele [dot] valinoti [at] nyu [dot] edu</code>.
 
 <div class="flex flex-col sm:flex-row gap-4 mt-6">
   <a href="/uploads/Valinoti_Sep25.pdf" 

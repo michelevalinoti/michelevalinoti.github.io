@@ -1,5 +1,5 @@
 ---
-title: 'CANO'
+title: 'Criminal Activity Nuisance Ordinance (CANO) Database'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -26,13 +26,13 @@ publishDate: 2025-05-29
 publication_types: ['manuscript']
 
 # Publication name and optional abbreviated publication name.
-publication: ''
+publication: 'Draft coming soon'
 publication_short: '*with Bryant Moy and Moin Khan*'
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: We construct the first comprehensive national database of Criminal Activity Nuisance Ordinances (CANOs), a class of municipal laws that penalize property owners for repeated police interactions. The database is built through a multi-stage process that combines large-scale web scraping of municipal codes from major legal repositories with targeted manual collection from city websites. We define a CANO using a legally grounded typology based on language linking resident behavior to owner liability. To classify ordinances at scale, we apply large language models to identify relevant provisions: the resulting dataset covers thousands of municipalities and captures both the presence of CANOs and the legal features that characterize their intensity. This infrastructure supports new empirical work on the prevalence and design of discriminatory local policies.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary:
 
 tags:
   - Large Language Models
