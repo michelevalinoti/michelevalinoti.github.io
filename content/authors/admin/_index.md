@@ -61,7 +61,7 @@ education:
 
       Research Assistant for Giulia Brancaccio/Karam Kang (Economics) and Bryant Moy (Politics).
 
-      Teaching Assistant of Maths (MA) and Statistics (UG). Course assistant of Industrial Organization (UG), Game Theory (PhD) and Money & Banking (UG).
+      Teaching Assistant of Maths (MA) and Statistics (UG). Course assistant of Industrial Organization (UG), Game Theory (PhD), and Money & Banking (UG).
     #button:
       #text: 'Read Thesis'
       #url: 'https://example.com'
@@ -89,7 +89,7 @@ work:
     date_start: 2025-06-02
     date_end: 2025-08-22
     summary: |
-      PhD Internship in the Membership Science Team at Uber in San Francisco, CA.
+      PhD Internship on the Membership Science Team at Uber, San Francisco, CA.
 
       Deployed and refined a membership model by building SQL ingestion pipelines, scaling estimation in PySpark, and delivering automated reporting for stakeholders.
     #  Responsibilities include:
@@ -103,10 +103,9 @@ work:
     date_start: 2020-01-01
     date_end: 2020-07-31
     summary: |
-      Internship in the Risk Analysis Team of the ECB in Frankfurt, Germany.
+      Internship in the Risk Analysis Team at the ECB, Frankfurt, Germany.
 
       Ran daily and weekly monitoring tasks, identified potential flags, and communicated with stakeholders at national central banks.
-
   #    Responsibilities include:
   #    - Migrated infrastructure to a new data center
   #    - lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -176,16 +175,16 @@ awards:
 
 ## About Me
 
-I am a sixth-year PhD student in Economics at NYU. In my work, I use complex data (texts, images, network) to answer questions in Economics and Political Science using a variety of economics and data science tools. Before joining the PhD program, I studied Physics, Economics, and Data Science in Turin, Italy.
+I am a sixth-year PhD student in Economics at NYU. My research combines Economics and Political Science with large-scale data sources — including text, images, and networks — using econometrics, machine learning, and AI methods. Before joining the PhD program, I studied Physics, Economics, and Data Science in Turin, Italy.
 
-In Summer 2025, I was a Scientist Intern in the Membership Science Team at Uber in San Francisco, CA.
+In Summer 2025, I worked as a Scientist Intern on the Membership Science Team at Uber in San Francisco, where I focused on deploying data-driven models at scale.
 
 I will be graduating in 2026, and will be seeking (Applied/Research/Data) Scientist tech roles in the United States. 
 
-Feel free to reach out at michele dot valinoti at nyu dot edu.
+Feel free to reach out at <p><code>michele [dot] valinoti [at] nyu [dot] edu</code></p>.
 
 <div class="flex flex-col sm:flex-row gap-4 mt-6">
-  <a href="/uploads/resume.pdf" 
+  <a href="/uploads/Valinoti_Sep25.pdf" 
      class="block w-full sm:w-auto px-6 py-4 rounded-lg bg-gray-200 text-black hover:text-green-800 text-center text-lg font-semibold shadow">
     Resume
   </a>
