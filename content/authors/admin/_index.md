@@ -179,7 +179,7 @@ I am a sixth-year PhD student in Economics at NYU. My research combines Economic
 
 In Summer 2025, I worked as a Scientist Intern on the Membership Science Team at Uber in San Francisco, where I focused on deploying data-driven models at scale.
 
-I will be graduating in 2026, and will be seeking (Applied/Research/Data) Scientist tech roles in the United States. 
+I will be graduating in 2026, and will be seeking (Applied/Research/Data) Scientist tech roles in the United States and Canada.
 
 Feel free to reach out at <code>michele [dot] valinoti [at] nyu [dot] edu</code>.
 
