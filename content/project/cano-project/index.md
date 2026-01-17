@@ -1,4 +1,4 @@
---
+---
 title: "Criminal Activity Nuisance Ordinance (CANO) Database"
 date: "2024-08-09"
 categories:
@@ -25,10 +25,10 @@ project:
 links:
   - icon: file-text
     name: Working paper
-    url: "/publication/cano-database/"
+    url: "/publication/cano-paper/"
   - icon: file-powerpoint
     name: Slides
-    url: "/publication/cano-database/slides_chapter2_website.pdf"
+    url: "/publication/cano-paper/slides_chapter2_website.pdf"
 ---
 
 ## Overview
