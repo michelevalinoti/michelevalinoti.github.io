@@ -8,7 +8,7 @@ date: ""
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2025-05-30
+publishDate: 2025-05-29
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -16,10 +16,10 @@ publishDate: 2025-05-30
 publication_types: ["manuscript"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Draft coming soon"
-publication_short: '*with Sahar Parsa*. Draft coming soon' 
+publication: ""
+publication_short: '*with Sahar Parsa*.' 
 
-abstract: This paper investigates the persistent gender disparities in media coverage of political candidates in the United States from 1980 to 2021. Using a novel dataset that combines detailed electoral records with over one million newspaper articles, we provide a comprehensive analysis of how female and male candidates are represented in the media during election campaigns for congressional, gubernatorial, and mayoral offices. We document three key findings. First, women candidates consistently receive more media coverage than their male counterparts. Second, using coreference resolution and state-of-the-art sentence transformers, we show that the qualitative content and tone of coverage differ systematically by gender, even after controlling for incumbency, vote share, and office type. In a third step, we decompose the differences between the embedding representations among semantic, topic, and style choices of their respective publishers.
+abstract: This paper investigates the persistent gender disparities in media coverage of political candidates in the United States from 1980 to 2021. Using a novel dataset that combines detailed electoral records with over one million newspaper articles, we provide a comprehensive analysis of how female and male candidates are represented in the media during election campaigns for congressional, gubernatorial, and mayoral offices. We show that, conditional on running, women are at least as visible as men and often receive more article-level coverage, but that the content and tone of coverage differ systematically by gender, even after controlling for incumbency, office, and party. Methodologically, we introduce an embedding-based representation of candidate-specific text and decompose male-female separation into components associated with topical emphasis and stylistic treatment.
 
 # Summary. An optional shortened abstract.
 summary:

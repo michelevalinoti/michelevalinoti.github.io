@@ -18,7 +18,7 @@ date: ''
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2025-05-29
+publishDate: 2025-05-30
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -27,9 +27,9 @@ publication_types: ['manuscript']
 
 # Publication name and optional abbreviated publication name.
 publication: ""
-publication_short: '*with Bryant Moy and Moin Khan*. Draft coming soon'
+publication_short: '*with Bryant Moy and Moin Khan*.'
 
-abstract: "We construct the first comprehensive national database of Criminal Activity Nuisance Ordinances (CANOs), a class of municipal laws that penalize property owners for repeated police interactions. The database is built through a multi-stage process that combines large-scale web scraping of municipal codes from major legal repositories with targeted manual collection from city websites. We define a CANO using a legally grounded typology based on language linking resident behavior to owner liability. To classify ordinances at scale, we apply large language models to identify relevant provisions: the resulting dataset covers thousands of municipalities and captures both the presence of CANOs and the legal features that characterize their intensity. This infrastructure supports new empirical work on the prevalence and design of discriminatory local policies."
+abstract: "Criminal Activity Nuisance Ordinances (CANOs) are local policies that allow governments to designate properties and residents as nuisances after repeated interactions with the police. Research across disciplines highlights that CANOs disproportionately impact people of color, economically disadvantaged communities, and victims of crime, often arising from discriminatory or racially motivated considerations. However, the absence of a comprehensive, nationwide dataset restricts systematic analysis of their prevalence and broader social implications. We address this gap by constructing the first national database of CANOs, using large language models to classify municipal ordinances at scale and to extract key attributes such as adoption year and the strength of eviction provisions. We document that CANOs are geographically widespread and adopted in a concave relation with minority population shares, consistent with racial-threat dynamics. Linking the database to eviction and crime records, We find that CANO adoption is associated with higher eviction and threatened-eviction rates -- especially where ordinances mandate or strongly encourage eviction -- but has no detectable effect on overall crime or arrest rates, including juvenile, Black, and Hispanic arrests."
 
 # Summary. An optional shortened abstract.
 summary: ''
