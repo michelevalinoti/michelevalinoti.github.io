@@ -7,7 +7,8 @@ categories:
 tags:
   - Lobbying
   - Political Economy
-summary: ""
+  - Structural Models
+summary: > Political access is scarce. This project studies how commercial lobbying firms broker that access between clients and New York State lawmakers, and how intermediaries’ relationship capital shapes who gets meetings and who ultimately benefits from public resources.
 
 image:
   filename: "featured.png"

@@ -41,9 +41,7 @@ date: "2024-01-01"
 categories:
   - research
 tags:
-  - Local Political Economy
-  - Housing & Evictions
-  - Policy Measurement
+  - Local Governance
   - Large Language Models
 summary: >
   Built a national database of Criminal Activity Nuisance Ordinances (CANOs) by collecting municipal codes,
