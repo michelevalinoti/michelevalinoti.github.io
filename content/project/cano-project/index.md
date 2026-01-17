@@ -6,4 +6,9 @@ categories:
   - research
 tags:
   - LLMs
+links:
+  - icon: file-text
+    name: Working paper
+    url: "/publication/cano-paper/"
 ---
+

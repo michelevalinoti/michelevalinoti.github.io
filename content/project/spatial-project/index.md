@@ -7,5 +7,9 @@ tags:
   - 
 categories:
   - dormant
+links:
+  - icon: brands/github
+    name: Code
+    url: "https://github.com/michelevalinoti/Spatial-Competition-Restaurants"
 ---
 <!--more-->

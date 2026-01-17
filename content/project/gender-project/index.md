@@ -7,4 +7,9 @@ categories:
 tags:
   - NLP
   - Media and Politics
+links:
+  - icon: file-text
+    name: Working paper
+    url: "/publication/gender-paper/"
 ---
+

@@ -7,6 +7,10 @@ tags:
   - Java
 categories:
   - pre-phd
+links:
+  - icon: brands/github
+    name: Code
+    url: "https://github.com/michelevalinoti/Learning-Dynamic-Data-Markets"
 ---
 
 MS Thesis
