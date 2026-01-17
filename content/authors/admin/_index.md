@@ -179,11 +179,11 @@ In Summer 2025, I interned as a Scientist on Uber’s Membership Science team in
 Feel free to reach out at <code>michele [dot] valinoti [at] gmail [dot] com</code>.
 
 <div class="flex flex-col sm:flex-row gap-4 mt-6">
-  <a href="/uploads/Valinoti_Sep2025.pdf" 
+  <a href="/uploads/Valinoti_Resume_Jan2026.pdf" 
      class="block w-full sm:w-auto px-6 py-4 rounded-lg bg-gray-200 text-black hover:text-green-800 text-center text-lg font-semibold shadow">
     Resume
   </a>
-  <a href="/uploads/AcademicCV.pdf" 
+  <a href="/uploads/Valinoti_AcademicCV_Jan26.pdf" 
      class="block w-full sm:w-auto px-6 py-4 rounded-lg bg-gray-200 text-black hover:text-green-800 text-center text-lg font-semibold shadow">
     Academic CV
   </a>
