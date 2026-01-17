@@ -1,56 +1,17 @@
----
+--
 title: "Criminal Activity Nuisance Ordinance (CANO) Database"
-subtitle: "A national dataset on nuisance ordinances and their consequences"
-date: "2024-08-29"
-external_link: ""
-categories:
-  - research
-tags:
-  - LLMs
-  - Public Policy
-summary: >
-  Building the first nationwide database of Criminal Activity Nuisance Ordinances (CANOs)
-  using large language models to classify municipal laws and extract key policy attributes.
-
-image:
-  filename: "featured.png"
-  caption: "Example of municipal nuisance ordinance text processed in the CANO pipeline."
-  focal_point: "Center"
-
-project:
-  status: "Work in progress"
-  period: "2024–present"
-  collaborators:
-    - "Michele Valinoti"
-    - "Bryant Moy"
-    - "Moin Khan"
-
-links:
-  - icon: file-text
-    name: Working paper
-    url: "/publication/cano-paper/"
-  - icon: file-powerpoint
-    name: Slides
-    url: "/publication/cano-paper/slides_chapter2_website.pdf"
----
-
----
-title: "Criminal Activity Nuisance Ordinance (CANO) Database"
-subtitle: "Measuring the spread and design of property-based policing ordinances in U.S. local law"
-date: "2024-01-01"
+date: "2024-08-09"
 categories:
   - research
 tags:
   - Local Governance
   - Large Language Models
 summary: >
-  Built a national database of Criminal Activity Nuisance Ordinances (CANOs) by collecting municipal codes,
-  identifying relevant provisions at scale, and extracting structured policy attributes. The project links legal
-  design to patterns in adoption and housing-related outcomes.
+  Built a national database of Criminal Activity Nuisance Ordinances (CANOs) by collecting municipal codes, identifying relevant provisions at scale, and extracting structured policy attributes. The project links legal design to patterns in adoption and housing-related outcomes.
 
 image:
   filename: "featured.png"
-  caption: "CANO prevalence and policy design from municipal codes."
+  caption: ""
   focal_point: "Center"
 
 project:
@@ -68,9 +29,6 @@ links:
   - icon: file-powerpoint
     name: Slides
     url: "/publication/cano-database/slides_chapter2_website.pdf"
-  - icon: brands/github
-    name: Code
-    url: "https://github.com/michelevalinoti/CANO-Database"
 ---
 
 ## Overview
