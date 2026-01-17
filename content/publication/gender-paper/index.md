@@ -17,7 +17,7 @@ publication_types: ["manuscript"]
 
 # Publication name and optional abbreviated publication name.
 publication: ""
-publication_short: '*with Sahar Parsa*.' 
+publication_short: '*with Sahar Parsa*' 
 
 abstract: This paper investigates the persistent gender disparities in media coverage of political candidates in the United States from 1980 to 2021. Using a novel dataset that combines detailed electoral records with over one million newspaper articles, we provide a comprehensive analysis of how female and male candidates are represented in the media during election campaigns for congressional, gubernatorial, and mayoral offices. We show that, conditional on running, women are at least as visible as men and often receive more article-level coverage, but that the content and tone of coverage differ systematically by gender, even after controlling for incumbency, office, and party. Methodologically, we introduce an embedding-based representation of candidate-specific text and decompose male-female separation into components associated with topical emphasis and stylistic treatment.
 
@@ -43,7 +43,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: ""
   focal_point: ""
   preview_only: false
 

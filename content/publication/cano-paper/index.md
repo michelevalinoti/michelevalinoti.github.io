@@ -27,7 +27,7 @@ publication_types: ['manuscript']
 
 # Publication name and optional abbreviated publication name.
 publication: ""
-publication_short: '*with Bryant Moy and Moin Khan*.'
+publication_short: '*with Bryant Moy and Moin Khan*'
 
 abstract: "Criminal Activity Nuisance Ordinances (CANOs) are local policies that allow governments to designate properties and residents as nuisances after repeated interactions with the police. Research across disciplines highlights that CANOs disproportionately impact people of color, economically disadvantaged communities, and victims of crime, often arising from discriminatory or racially motivated considerations. However, the absence of a comprehensive, nationwide dataset restricts systematic analysis of their prevalence and broader social implications. We address this gap by constructing the first national database of CANOs, using large language models to classify municipal ordinances at scale and to extract key attributes such as adoption year and the strength of eviction provisions. We document that CANOs are geographically widespread and adopted in a concave relation with minority population shares, consistent with racial-threat dynamics. Linking the database to eviction and crime records, We find that CANO adoption is associated with higher eviction and threatened-eviction rates -- especially where ordinances mandate or strongly encourage eviction -- but has no detectable effect on overall crime or arrest rates, including juvenile, Black, and Hispanic arrests."
 

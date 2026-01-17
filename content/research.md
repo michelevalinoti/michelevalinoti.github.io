@@ -19,15 +19,15 @@ sections:
         exclude_featured: false
     design:
       view: community/citation_modified
-  - block: collection
+  - block: markdown
     id: teaching
     content:
       title: Teaching
-      text: ""
-      filters:
-        folders:
-          - teaching
-    design:
-      view: article-grid
-      columns: 2
+      text: |-
+        - Fall 2025 — Money & Banking (UG, NYU), Course Assistant
+        - Spring 2024–2025 — Statistics (UG, NYU), Teaching Assistant
+        - Fall 2023–2024 — Math for Economists (MA, NYU), Teaching Assistant
+        - Summer 2024–2025 — Industrial Organization (UG, NYU), Course Assistant
+        - Spring 2023 — Microeconomics (MA, NYU), Teaching Assistant
+        - Fall 2022 — Game Theory (PhD, NYU), Course Assistant
 ---
