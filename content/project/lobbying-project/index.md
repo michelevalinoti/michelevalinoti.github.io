@@ -26,7 +26,7 @@ links:
     url: "/publication/lobbying-paper/"
   - icon: file-powerpoint
     name: Slides
-    url: "/publication/lobbying-paper/slides_chapter1_website.pdf""
+    url: "/publication/lobbying-paper/slides_chapter1_website.pdf"
 ---
 
 ## Overview
