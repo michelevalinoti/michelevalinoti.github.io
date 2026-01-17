@@ -1,7 +1,7 @@
 ---
 title: Tying the knot
 date: 2024-09-10
-external_link: https://github.com/enzodipasquale/Antenati
+external_link: ''
 tags:
   - LLMs
 categories:

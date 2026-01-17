@@ -50,7 +50,7 @@ url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: '/project/cano-project/'
-url_slides: ''
+url_slides: '/publication/cano-paper/slides_chapter2_website.pdf'
 url_source: ''
 url_video: ''
 
