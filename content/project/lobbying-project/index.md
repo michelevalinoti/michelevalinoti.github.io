@@ -33,7 +33,7 @@ links:
 
 This project studies how political access is allocated when lawmakers’ time and attention are scarce, and how **commercial lobbying firms** act as intermediaries between clients and legislators. Using unusually detailed disclosure data, I track **who contacts whom, through which intermediary, and on behalf of which client**, and connect access patterns to downstream public-resource outcomes for a large set of organizations.
 
-![Conceptual map of the lobbying network.](content/project/lobbying-project/network_lobbyist_client_combo_.png)
+![Conceptual map of the lobbying network.](network_lobbyist_client_combo_.png)
 
 A core lens is to view lobbying as an **intermediated access market**: clients choose whether (and how) to lobby, while intermediaries help route attention toward particular lawmakers under capacity constraints.
 
@@ -56,4 +56,4 @@ Three high-level takeaways:
 - **Intermediaries matter for targeting**: commercial firms play an outsized role in reaching high-leverage legislators and in redeploying relationship capital over time (including around institutional changes).
 - **Distribution vs. totals**: counterfactual exercises in the model are aimed at understanding how changing intermediation reshapes *who* participates and *which* lawmakers are targeted, potentially altering the distribution of beneficiaries even when aggregate effects are modest.
 
-![Illustrative relationship between access and legislator influence.](content/project/lobbying-project/contacts_pct_change_by_asset_bin_1219.png)
+![Illustrative relationship between access and legislator influence.](contacts_pct_change_by_asset_bin_1219.png)
