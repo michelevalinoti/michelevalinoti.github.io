@@ -172,11 +172,11 @@ awards:
 
 ## About Me
 
-I recently got my PhD in Economics from New York University. My research combined Economics and Political Science with large-scale data sources — including text, images, and networks — using econometrics, machine learning, and AI methods. Before joining the PhD program, I studied Physics, Economics, and Data Science in Turin, Italy.
+I recently completed a PhD in Economics at New York University, where I worked at the intersection of Economics and Political Science. My research leveraged large-scale text, image, and network data, combining structural modelling and causal inference with machine learning and modern AI. I previously studied Physics, Economics, and Data Science in Turin, Italy.
 
-In Summer 2025, I worked as a Scientist Intern on the Membership Science Team at Uber in San Francisco, where I focused on deploying data-driven models at scale. I will return to the team in Spring 2026!
+In Summer 2025, I interned as a Scientist on Uber’s Membership Science team in San Francisco, building and deploying models at scale. I’ll be rejoining the team in Spring 2026.
 
-Feel free to reach out at <code>michele [dot] valinoti [at] nyu [dot] edu</code>.
+Feel free to reach out at <code>michele [dot] valinoti [at] gmail [dot] com</code>.
 
 <div class="flex flex-col sm:flex-row gap-4 mt-6">
   <a href="/uploads/Valinoti_Sep2025.pdf" 
