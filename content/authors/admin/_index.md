@@ -48,7 +48,35 @@ profiles:
 
 interests: []
 
-education: []
+education:
+  - area: PhD Economics
+    institution: New York University
+    date_start: 2020-09-01
+    date_end: 2026-01-01
+    summary: |
+      Worked on 5 research projects spanning causal inference, structural estimation, NLP and LLMs.
+
+      Research Assistant for Giulia Brancaccio/Karam Kang (Economics) and Bryant Moy (Politics).
+
+      Teaching Assistant of Maths (MA) and Statistics (UG). Course assistant of Industrial Organization (UG), Game Theory (PhD), and Money & Banking (UG).
+    #button:
+      #text: 'Read Thesis'
+      #url: 'https://example.com'
+  - area: MA Economics
+    institution: Collegio Carlo Alberto
+    date_start: 2015-09-01
+    date_end: 2019-12-01
+    summary: Allievi Honors Program
+  - area: MSc Stochastics and Data Science
+    institution: University of Turin
+    date_start:  2017-11-01
+    date_end: 2019-12-01
+    summary: cum laude
+  - area: BSc Physics
+    institution: University of Turin
+    date_start: 2014-09-01
+    date_end: 2017-10-01
+    summary: cum laude
 
 work:
   - position: Scientist PhD Intern
@@ -160,3 +188,10 @@ Feel free to reach out at <code>michele [dot] valinoti [at] nyu [dot] edu</code>
     Academic CV
   </a>
 </div>
+
+<style>
+  /* Hide Interests & Education grid only in the homepage bio section */
+  .blox-resume-biography-3 .grid.grid-cols-1.md\:grid-cols-2 {
+    display: none;
+  }
+</style>

@@ -1,5 +1,5 @@
 ---
-title: 'Other'
+title: 'Personal'
 date: 2025-01-01
 type: landing
 
@@ -10,7 +10,7 @@ design:
 sections:
   - block: markdown
     content:
-      title: Other
+      title: Personal
       subtitle: Things I enjoy outside of research
       text: |-
         This page will collect a few of my favorite movies and other small personal recommendations.
