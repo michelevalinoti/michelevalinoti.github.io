@@ -38,7 +38,10 @@ links:
 
 This project studies how political access is allocated when lawmakers’ time and attention are scarce, and how **commercial lobbying firms** act as intermediaries between clients and legislators. Using unusually detailed disclosure data, I track **who contacts whom, through which intermediary, and on behalf of which client**, and connect access patterns to downstream public-resource outcomes for a large set of organizations.
 
-![Tripartite network built from New York State lobbying disclosures: clients (left) retain lobbyists/firms (middle) who contact legislators (right). Links represent disclosed contacts, illustrating how a small set of intermediaries can sit between many clients and high-demand policymakers.](network_lobbyist_client_combo_.png)
+{{< figure
+  src="network_lobbyist_client_combo_.png"
+  caption="Tripartite network built from New York State lobbying disclosures: clients (left) retain lobbyists/firms (middle) who contact legislators (right). Links represent disclosed contacts, illustrating how a small set of intermediaries can sit between many clients and high-demand policymakers."
+>}}
 
 A core lens is to view lobbying as an **intermediated access market**: clients choose whether (and how) to lobby, while intermediaries help route attention toward particular lawmakers under capacity constraints.
 
@@ -65,4 +68,7 @@ The analysis has two parts:
 
 Overall, the results emphasize distribution: intermediaries can meaningfully reshape **who** participates, **which lawmakers** receive attention, and **how relationship capital is deployed**—even when aggregate outcomes move less than the raw meeting counts might suggest.
 
-![Counterfactual simulations of access and meeting activity under alternative lobbying technologies (baseline vs. removing lobbying, removing commercial firms, and reassigning relationship capital). The figure summarizes how changes in intermediation reshape the distribution of contacts across organizations.](contacts_pct_change_by_asset_bin_1219.png)
+{{< figure
+  src="contacts_pct_change_by_asset_bin_1219.png"
+  caption="Counterfactual simulations of access and meeting activity under alternative lobbying technologies (baseline vs. removing lobbying, removing commercial firms, and reassigning relationship capital). The figure summarizes how changes in intermediation reshape the distribution of contacts across organizations."
+>}}

@@ -35,7 +35,10 @@ links:
 
 Criminal Activity Nuisance Ordinances (CANOs) are municipal laws that treat repeated “nuisance” incidents as a **property-level problem**, potentially shifting enforcement pressure onto property owners and residents. This project builds a national database of CANOs from municipal codes, enabling systematic evidence on where these ordinances exist, how they are written, and how they relate to adoption patterns and housing outcomes.
 
-![Geographic distribution of jurisdictions identified as having a CANO, illustrating broad prevalence and regional clustering.](map_us_cano_all_in_one.png)
+{{< figure
+  src="map_us_cano_all_in_one.png"
+  caption="Geographic distribution of jurisdictions identified as having a CANO, illustrating broad prevalence and regional clustering."
+>}}
 
 ## Data & Pipeline
 
@@ -53,4 +56,7 @@ The database supports three high-level takeaways:
 - **Adoption correlates**: CANO incidence is systematically related to local demographic composition in a way consistent with a “threat”-style adoption pattern (without pinning the interpretation on any single mechanism).
 - **Housing-facing associations**: linking adoption timing to outcome panels suggests stronger and more persistent associations with **housing instability measures** than with **public-safety measures**, especially where ordinances rely on eviction-related enforcement channels.
 
-![Outcome dynamics around CANO adoption: estimates are shown relative to a pre-adoption baseline to summarize how housing-related outcomes evolve after adoption.](es_three_outcomes.png)
+{{< figure
+  src="es_three_outcomes.png"
+  caption="Outcome dynamics around CANO adoption: estimates are shown relative to a pre-adoption baseline to summarize how housing-related outcomes evolve after adoption."
+>}}
