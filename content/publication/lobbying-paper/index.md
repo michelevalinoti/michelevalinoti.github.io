@@ -32,7 +32,7 @@ url_code: 'https://github.com/michelevalinoti/Matching-Lobbying'
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: ''
+url_slides: '/publication/lobbying-paper/slides_chapter1_website.pdf'
 url_source: ''
 url_video: ''
 
