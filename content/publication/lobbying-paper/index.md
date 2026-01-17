@@ -1,5 +1,5 @@
 ---
-title: "Intermediation in Matching Markets. Evidence from commercial lobbying."
+title: "The Market for Political Access. Evidence from New York State Lobbying"
 authors:
 - admin
 author_notes: ""
@@ -15,9 +15,9 @@ publishDate: 2025-05-31
 publication_types: ["manuscript"]
 
 # Publication name and optional abbreviated publication name.
-publication_short: "Draft coming soon"
+publication_short: ""
 
-abstract: "This paper studies the role of intermediaries in the allocation of political access. Using novel data on lobbying contacts between clients, lobbying firms, and lawmakers in New York State, I document three key empirical facts: (i) legislative influence, committee assignment, and seniority are strong predictors of contact volume; (ii) commercial lobbyists are significantly more active than in-house lobbyists, particularly when connected to lawmakers via campaign contributions or prior employment; and (iii) connections are used selectively, even after conditioning on issue-area alignment and agent identities. Building on these facts, I propose a model in which lobbying firms and clients negotiate fees as a function of firm-specific characteristics and expected returns. The model embeds a matching mechanism that allocates contacts to lawmakers in a manner that maximizes client welfare subject to two equilibrium constraints: a market-clearing condition equating supply and demand for contacts, and a participation condition linking lobbying effort to negotiated fees. The framework rationalizes observed contact patterns and provides a foundation for estimating counterfactual allocations under alternative intermediation structures."
+abstract: "We study how commercial lobbying firms intermediate access to lawmakers when political attention is scarce. We use a novel dataset of New York State lobbying that links who contacted whom, through which intermediary, and on behalf of which client, to administrative records on grants and contracts received by tax-exempt organizations. We document that meetings are highly concentrated on a small set of powerful legislators and that commercial lobbying firms mediate a disproportionate share of contacts to these lawmakers, leveraging often revolving-door ties and connections proxied by campaign contributions. Guided by these facts, we develop and estimate a two-stage model of access allocation. In the first stage, clients choose whether to lobby and whether to do so in-house, through a commercial lobbying firm, or jointly. In the second stage, politicians allocate meetings across client--lobbyist pairs subject to legislator-specific capacity. The estimates imply strongly diminishing returns to additional access and sizable entry costs, and model-based counterfactual simulations suggest that eliminating commercial lobbying firms, or reallocating their relationship capital, would modestly reduce aggregate nonprofit grants while meaningfully changing their distribution, especially for large organizations."
 
 # Summary. An optional shortened abstract.
 summary:
