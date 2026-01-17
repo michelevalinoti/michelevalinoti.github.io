@@ -54,8 +54,8 @@ interests:
 education:
   - area: PhD Economics
     institution: New York University
-    date_start: 2020-08-01
-    date_end: ''
+    date_start: 2020-09-01
+    date_end: 2026-01-01
     summary: |
       Worked on 5 research projects spanning causal inference, structural estimation, NLP and LLMs.
 
@@ -67,18 +67,18 @@ education:
       #url: 'https://example.com'
   - area: MA Economics
     institution: Collegio Carlo Alberto
-    date_start: 2017-10-01
+    date_start: 2015-09-01
     date_end: 2019-12-01
     summary: Allievi Honors Program
   - area: MSc Stochastics and Data Science
     institution: University of Turin
-    date_start:  2017-10-01
+    date_start:  2017-11-01
     date_end: 2019-12-01
     summary: cum laude
   - area: BSc Physics
     institution: University of Turin
     date_start: 2014-09-01
-    date_end: 2017-12-01
+    date_end: 2017-10-01
     summary: cum laude
 
 work:
@@ -175,11 +175,9 @@ awards:
 
 ## About Me
 
-I am a sixth-year PhD student in Economics at NYU. My research combines Economics and Political Science with large-scale data sources — including text, images, and networks — using econometrics, machine learning, and AI methods. Before joining the PhD program, I studied Physics, Economics, and Data Science in Turin, Italy.
+I recently got my PhD in Economics from New York University. My research combined Economics and Political Science with large-scale data sources — including text, images, and networks — using econometrics, machine learning, and AI methods. Before joining the PhD program, I studied Physics, Economics, and Data Science in Turin, Italy.
 
-In Summer 2025, I worked as a Scientist Intern on the Membership Science Team at Uber in San Francisco, where I focused on deploying data-driven models at scale.
-
-I will be graduating in 2026, and will be seeking (Applied/Research/Data) Scientist tech roles in the United States and Canada.
+In Summer 2025, I worked as a Scientist Intern on the Membership Science Team at Uber in San Francisco, where I focused on deploying data-driven models at scale. I will return to the team in Spring 2026!
 
 Feel free to reach out at <code>michele [dot] valinoti [at] nyu [dot] edu</code>.
 
