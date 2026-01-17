@@ -7,6 +7,9 @@ main:
   - name: Bio
     url: /
     weight: 10
+  - name: News
+    url: /#news
+    weight: 13
   - name: Research
     identifier: research
     url: /research/

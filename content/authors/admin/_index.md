@@ -184,10 +184,6 @@ I will be graduating in 2026, and will be seeking (Applied/Research/Data) Scient
 Feel free to reach out at <code>michele [dot] valinoti [at] nyu [dot] edu</code>.
 
 <div class="flex flex-col sm:flex-row gap-4 mt-6">
-  <a href="#news" 
-     class="block w-full sm:w-auto px-6 py-4 rounded-lg bg-gray-900 text-white hover:bg-gray-700 text-center text-lg font-semibold shadow">
-    News
-  </a>
   <a href="/uploads/Valinoti_Sep2025.pdf" 
      class="block w-full sm:w-auto px-6 py-4 rounded-lg bg-gray-200 text-black hover:text-green-800 text-center text-lg font-semibold shadow">
     Resume
@@ -200,7 +196,5 @@ Feel free to reach out at <code>michele [dot] valinoti [at] nyu [dot] edu</code>
 
 <h2 id="news" class="mt-10 mb-4 text-2xl font-semibold">News</h2>
 
-- Sep 2025 — Started a Scientist PhD internship on the Membership Science Team at Uber in San Francisco.
-- Jun 2025 — Presented new work on causal inference and large-scale text data at a department seminar.
-- Mar 2025 — Released a working paper on combining econometrics and NLP for political text analysis.
-- Dec 2024 — Co-organized a reading group on AI and Economics at NYU.
+- Jan 2026 — I defended my thesis for my PhD in Economics!
+- Oct 2025 — I accepted an offer from Uber: I will start as Scientist in the Membership Team in Spring 2026!
