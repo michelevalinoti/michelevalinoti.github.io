@@ -31,7 +31,7 @@ url_pdf: #http://arxiv.org/pdf/1512.04133v1
 url_code: ''
 url_dataset: ''
 url_poster: ''
-url_project: ''
+url_project: '/project/lobbying-project/'
 url_slides: '/publication/lobbying-paper/slides_chapter1_website.pdf'
 url_source: ''
 url_video: ''
