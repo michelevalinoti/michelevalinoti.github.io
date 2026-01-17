@@ -5,16 +5,13 @@ date: "2023-06-18"
 categories:
   - research
 tags:
-  - Matching Models
   - Lobbying
   - Political Economy
-summary: >
-  How commercial lobbyists shape the allocation of political access between clients
-  and lawmakers using network position and targeted intermediation.
+summary: ""
 
 image:
   filename: "featured.png"
-  caption: "Illustration of lobbying relationships between clients, lobbyists, and lawmakers."
+  caption: ""
   focal_point: "Center"
 
 project:
@@ -29,57 +26,34 @@ links:
     url: "/publication/lobbying-paper/"
   - icon: file-powerpoint
     name: Slides
-    url: "/publication/lobbying-paper/slides_chapter1_website.pdf"
-  - icon: brands/github
-    name: Code
-    url: "https://github.com/michelevalinoti/Matching-Lobbying"
+    url: "/publication/lobbying-paper/slides_chapter1_website.pdf""
 ---
 
 ## Overview
 
-This project studies how commercial lobbying firms intermediate access between private clients and legislators in New York State.  
-Using detailed data on lobbying contacts, campaign contributions, and legislative careers, I document how access is distributed and how intermediaries shape which politicians receive attention.
+This project studies how political access is allocated when lawmakers’ time and attention are scarce, and how **commercial lobbying firms** act as intermediaries between clients and legislators. Using unusually detailed disclosure data, I track **who contacts whom, through which intermediary, and on behalf of which client**, and connect access patterns to downstream public-resource outcomes for a large set of organizations.
 
-![Overview of lobbying network between clients, lobbyists, and lawmakers.](network-overview.png)
+![Conceptual map of the lobbying network.](network_lobbyist_client_combo_.png)
 
-The core idea is to treat lobbyists as intermediaries in a matching market: clients choose which firms to hire, and firms decide which lawmakers to approach given their connections and capacity.
+A core lens is to view lobbying as an **intermediated access market**: clients choose whether (and how) to lobby, while intermediaries help route attention toward particular lawmakers under capacity constraints.
 
 ## Data & Setting
 
-The dataset combines:
-
-- Administrative records of lobbying contacts between clients, lobbying firms, and legislators.
-- Legislators’ committee assignments, seniority, and leadership positions.
-- Public data on campaign contributions and previous employment links.
-
-This allows me to construct a tripartite network (clients–lobbyists–lawmakers) and track how attention is allocated over time.
+The setting is New York State, where disclosures allow measurement of lobbying at the level of **contacts to specific targets** rather than only spending aggregates. The project links lobbying activity to administrative outcomes in a way that makes the access-allocation problem observable at fine granularity
 
 ## Methods
 
-Methodologically, the project:
+The analysis has two parts:
 
-- Uses a reduced-form analysis to characterize which lawmakers receive more attention (e.g., by committee, seniority, and leadership roles).
-- Builds a structural matching model where:
-  - clients choose lobbying firms,
-  - firms decide how to allocate contacts across lawmakers,
-  - contacts are priced through fees that depend on firm characteristics and expected returns.
+- **Descriptive evidence** on how contacts are distributed across lawmakers and how intermediation varies with institutional positions and relationships.
+- A **structural model** with two stages: clients choose organizational form (e.g., in-house, commercial firm, or both), and lawmakers allocate meetings across client–intermediary pairs subject to attention constraints. The model is designed to capture how relationship capital and scarce attention jointly shape access.
 
-The model embeds equilibrium conditions that link observed contacts and fees to the underlying distribution of lobbying demand and intermediation capacity.
+## Results & takeaways
 
-## Results & Takeaways
+Three high-level takeaways:
 
-Preliminary findings:
+- **Access is uneven**: a small set of institutionally pivotal lawmakers attracts a disproportionate share of attention.
+- **Intermediaries matter for targeting**: commercial firms play an outsized role in reaching high-leverage legislators and in redeploying relationship capital over time (including around institutional changes).
+- **Distribution vs. totals**: counterfactual exercises in the model are aimed at understanding how changing intermediation reshapes *who* participates and *which* lawmakers are targeted, potentially altering the distribution of beneficiaries even when aggregate effects are modest.
 
-- Commercial lobbyists account for a large share of observed contacts, especially when they are personally connected to lawmakers.
-- Connections via campaign contributions or prior employment are used selectively, even after controlling for issue-area and client characteristics.
-- Reallocating intermediation power across firms has sizable implications for which lawmakers receive political attention.
-
-![Estimated effect of intermediary connections on probability of contact.](effect-plot.png)
-
-From a policy perspective, the results speak to how regulation of lobbying firms and their connections can change who gets access to policymakers, even holding total lobbying effort fixed.
-
-## Outputs
-
-- Working paper: *Intermediation in Matching Markets: Evidence from Commercial Lobbying*.
-- Slides: chapter 1 slides for seminars and job talks.
-- Code: data processing and estimation in Python/R, with reproducible analysis scripts.
+![Illustrative relationship between access and legislator influence.](contacts_pct_change_by_asset_bin_1219.png)
