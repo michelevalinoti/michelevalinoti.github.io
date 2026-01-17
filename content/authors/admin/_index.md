@@ -183,10 +183,6 @@ Feel free to reach out at <code>michele [dot] valinoti [at] gmail [dot] com</cod
      class="block w-full sm:w-auto px-6 py-4 rounded-lg bg-gray-200 text-black hover:text-green-800 text-center text-lg font-semibold shadow">
     Resume
   </a>
-  <a href="/uploads/Valinoti_AcademicCV_Jan26.pdf" 
-     class="block w-full sm:w-auto px-6 py-4 rounded-lg bg-gray-200 text-black hover:text-green-800 text-center text-lg font-semibold shadow">
-    Academic CV
-  </a>
 </div>
 
 <style>
