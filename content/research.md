@@ -1,5 +1,5 @@
 ---
-title: 'Research'
+title: 'Research & Teaching'
 date: 2024-10-24
 type: landing
 
@@ -11,7 +11,7 @@ sections:
   - block: collection
     id: research
     content:
-      title: Work in progress
+      title: Research
       text: ""
       filters:
         folders:
@@ -19,4 +19,15 @@ sections:
         exclude_featured: false
     design:
       view: community/citation_modified
+  - block: collection
+    id: teaching
+    content:
+      title: Teaching
+      text: ""
+      filters:
+        folders:
+          - teaching
+    design:
+      view: article-grid
+      columns: 2
 ---
