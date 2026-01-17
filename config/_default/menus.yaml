@@ -8,7 +8,7 @@ main:
     url: /
     weight: 10
   - name: News
-    url: /#news
+    url: /news/
     weight: 13
   - name: Research & Teaching
     identifier: research
@@ -20,7 +20,7 @@ main:
   #- name: News
   #  url: /#news
   #  weight: 13
-  - name: Experience
+  - name: Resume
     url: /experience/
     weight: 15
   - name: Projects

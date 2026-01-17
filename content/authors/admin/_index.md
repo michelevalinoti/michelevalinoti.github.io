@@ -46,40 +46,9 @@ profiles:
   #- icon: academicons/orcid
   #  url: https://orcid.org/
 
-interests:
-  - Causal Inference
-  - Industrial Organization
-  - Artificial Intelligence
+interests: []
 
-education:
-  - area: PhD Economics
-    institution: New York University
-    date_start: 2020-09-01
-    date_end: 2026-01-01
-    summary: |
-      Worked on 5 research projects spanning causal inference, structural estimation, NLP and LLMs.
-
-      Research Assistant for Giulia Brancaccio/Karam Kang (Economics) and Bryant Moy (Politics).
-
-      Teaching Assistant of Maths (MA) and Statistics (UG). Course assistant of Industrial Organization (UG), Game Theory (PhD), and Money & Banking (UG).
-    #button:
-      #text: 'Read Thesis'
-      #url: 'https://example.com'
-  - area: MA Economics
-    institution: Collegio Carlo Alberto
-    date_start: 2015-09-01
-    date_end: 2019-12-01
-    summary: Allievi Honors Program
-  - area: MSc Stochastics and Data Science
-    institution: University of Turin
-    date_start:  2017-11-01
-    date_end: 2019-12-01
-    summary: cum laude
-  - area: BSc Physics
-    institution: University of Turin
-    date_start: 2014-09-01
-    date_end: 2017-10-01
-    summary: cum laude
+education: []
 
 work:
   - position: Scientist PhD Intern
@@ -191,8 +160,3 @@ Feel free to reach out at <code>michele [dot] valinoti [at] nyu [dot] edu</code>
     Academic CV
   </a>
 </div>
-
-<h2 id="news" class="mt-10 mb-4 text-2xl font-semibold">News</h2>
-
-- Jan 2026 — I defended my thesis for my PhD in Economics!
-- Oct 2025 — I accepted an offer from Uber: I will start as Scientist in the Membership Team in Spring 2026!
