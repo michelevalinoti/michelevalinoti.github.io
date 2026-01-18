@@ -61,6 +61,6 @@ Across specifications, higher exposure to delivery-based competition—especiall
 The evidence here is best read as characterization rather than causal attribution: delivery coverage and local variety likely co-move with unobserved demand, neighborhood change, and platform-side decisions.
 
 {{< figure
-src="OLS_params_diversity_num_set_difference_delivery_physical__.png"
+src="OLS_params_diversity_num_set_difference_delivery_physical__BoroName.png"
 caption="Figure 9a: Associations between tract-level product diversity and delivery exposure as the definition of ‘non-local’ competition varies across distance thresholds (OLS with tract controls)."
 >}}
