@@ -1,0 +1,285 @@
+2025:
+  - id: weapons
+    title: "Weapons"
+    year: 2025
+    director: "Zach Cregger"
+    poster: "/movies/weapons.jpg"
+  - id: lurker
+    title: "Lurker"
+    year: 2025
+    director: "Alex Russell"
+    poster: "/movies/lurker.jpg"
+  - id: the-ugly-stepsister
+    title: "The Ugly Stepsister"
+    year: 2025
+    director: "Emilie Blichfeldt"
+    poster: "/movies/the_ugly_stepsister.jpg"
+
+2024:
+  - id: the-substance
+    title: "The Substance"
+    year: 2024
+    director: "Coralie Fargeat"
+    poster: "/movies/the_substance.jpg"
+  - id: i-saw-the-tv-glow
+    title: "I Saw the TV Glow"
+    year: 2024
+    director: "Jane Schoenbrun"
+    poster: "/movies/i_saw_the_tv_glow.jpg"
+
+all_time:
+  - id: parasite
+    title: "Parasite"
+    year: 2019
+    director: "Bong Joon-ho"
+    poster: "/movies/parasite.jpg"
+  - id: everything-everywhere
+    title: "Everything Everywhere All at Once"
+    year: 2022
+    director: "Daniel Kwan & Daniel Scheinert"
+    poster: ""
+  - id: stalker
+    title: "Stalker"
+    year: 1979
+    director: "Andrei Tarkovsky"
+    poster: ""
+  - id: a-clockwork-orange
+    title: "A Clockwork Orange"
+    year: 1971
+    director: "Stanley Kubrick"
+    poster: ""
+  - id: oldboy
+    title: "Oldboy"
+    year: 2003
+    director: "Park Chan-wook"
+    poster: "/movies/oldboy.jpg"
+
+obsession_desire_possession:
+  - id: possession
+    title: "Possession"
+    year: 1981
+    director: "Andrzej Żuławski"
+    poster: ""
+  - id: the-piano-teacher
+    title: "The Piano Teacher"
+    year: 2001
+    director: "Michael Haneke"
+    poster: ""
+  - id: match-point
+    title: "Match Point"
+    year: 2005
+    director: "Woody Allen"
+    poster: ""
+  - id: the-killing-of-a-sacred-deer
+    title: "The Killing of a Sacred Deer"
+    year: 2017
+    director: "Yorgos Lanthimos"
+    poster: ""
+
+labyrinths_identity_narrative_unreality:
+  - id: mulholland-drive
+    title: "Mulholland Drive"
+    year: 2001
+    director: "David Lynch"
+    poster: ""
+  - id: la-mala-educacion
+    title: "La mala educación"
+    year: 2004
+    director: "Pedro Almodóvar"
+    poster: ""
+  - id: poor-things
+    title: "Poor Things"
+    year: 2023
+    director: "Yorgos Lanthimos"
+    poster: ""
+
+dream_memory_autobiography:
+  - id: amarcord
+    title: "Amarcord"
+    year: 1973
+    director: "Federico Fellini"
+    poster: ""
+  - id: the-hand-of-god
+    title: "The Hand of God"
+    year: 2021
+    director: "Paolo Sorrentino"
+    poster: ""
+  - id: mirror
+    title: "Mirror (Zerkalo)"
+    year: 1975
+    director: "Andrei Tarkovsky"
+    poster: ""
+  - id: endless-poetry
+    title: "Endless Poetry"
+    year: 2016
+    director: "Alejandro Jodorowsky"
+    poster: ""
+
+awe_sublime_cosmic_formal:
+  - id: 2001-a-space-odyssey
+    title: "2001: A Space Odyssey"
+    year: 1968
+    director: "Stanley Kubrick"
+    poster: ""
+  - id: solaris
+    title: "Solaris"
+    year: 1972
+    director: "Andrei Tarkovsky"
+    poster: ""
+  - id: arrival
+    title: "Arrival"
+    year: 2016
+    director: "Denis Villeneuve"
+    poster: ""
+
+totalitarian_nightmares:
+  - id: come-and-see
+    title: "Come and See"
+    year: 1985
+    director: "Elem Klimov"
+    poster: ""
+  - id: the-lives-of-others
+    title: "The Lives of Others (Das Leben der Anderen)"
+    year: 2006
+    director: "Florian Henckel von Donnersmarck"
+    poster: ""
+  - id: the-conformist
+    title: "The Conformist"
+    year: 1970
+    director: "Bernardo Bertolucci"
+    poster: ""
+
+power_money_empire:
+  - id: the-godfather
+    title: "The Godfather"
+    year: 1972
+    director: "Francis Ford Coppola"
+    poster: ""
+  - id: there-will-be-blood
+    title: "There Will Be Blood"
+    year: 2007
+    director: "Paul Thomas Anderson"
+    poster: ""
+  - id: barry-lyndon
+    title: "Barry Lyndon"
+    year: 1975
+    director: "Stanley Kubrick"
+    poster: ""
+
+found_footage:
+  - id: rec
+    title: "[•REC]"
+    year: 2007
+    director: "Jaume Balagueró & Paco Plaza"
+    poster: ""
+  - id: cloverfield
+    title: "Cloverfield"
+    year: 2008
+    director: "Matt Reeves"
+    poster: ""
+
+wit_self_delusion:
+  - id: annie-hall
+    title: "Annie Hall"
+    year: 1977
+    director: "Woody Allen"
+    poster: ""
+  - id: manhattan
+    title: "Manhattan"
+    year: 1979
+    director: "Woody Allen"
+    poster: ""
+  - id: young-frankenstein
+    title: "Young Frankenstein"
+    year: 1974
+    director: "Mel Brooks"
+    poster: ""
+
+*** Add File: layouts/shortcodes/movie_carousel.html
+{{- $group := .Get "group" -}}
+{{- $movies := index site.Data.movies $group | default (slice) -}}
+
+{{- if gt (len $movies) 0 -}}
+<div class="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4">
+  {{- range $movies }}
+  <div class="min-w-[180px] snap-start">
+    {{- if .poster }}
+    <div class="mb-2">
+      <img src="{{ .poster }}" alt="{{ .title }} poster" class="rounded shadow max-h-64 w-auto">
+    </div>
+    {{- end }}
+    <div class="font-semibold">{{ .title }}</div>
+    <div class="text-sm text-gray-400 dark:text-gray-400">{{ .year }} · {{ .director }}</div>
+  </div>
+  {{- end }}
+</div>
+{{- else -}}
+<p class="text-sm text-gray-400 dark:text-gray-500">No movies added yet.</p>
+{{- end -}}
+
+*** Update File: content/personal.md
+@@
+-sections:
+-  - block: markdown
+-    content:
+-      title: Personal
+-      subtitle: Things I enjoy outside of research
+-      text: |-
+-        This page will collect a few of my favorite movies and other small personal recommendations.
+-
+-        _Content coming soon._
+---
+sections:
+  - block: markdown
+    content:
+      title: Personal
+      subtitle: Things I enjoy outside of research
+      text: |-
+        Here is a small, evolving selection of films I love, grouped by year and by theme. Posters will come later — for now, just titles, years, and directors.
+
+        ### 2025
+
+        {{< movie_carousel group="2025" >}}
+
+        ### 2024
+
+        {{< movie_carousel group="2024" >}}
+
+        ### All‑Time
+
+        {{< movie_carousel group="all_time" >}}
+
+        ---
+
+        ### Obsession, Desire, Possession
+
+        {{< movie_carousel group="obsession_desire_possession" >}}
+
+        ### Labyrinths (identity, narrative, unreality)
+
+        {{< movie_carousel group="labyrinths_identity_narrative_unreality" >}}
+
+        ### Dream, Memory, Autobiography
+
+        {{< movie_carousel group="dream_memory_autobiography" >}}
+
+        ### Awe / The Sublime (cosmic, formal, grand)
+
+        {{< movie_carousel group="awe_sublime_cosmic_formal" >}}
+
+        ### Totalitarian Nightmares (state, surveillance, ideology)
+
+        {{< movie_carousel group="totalitarian_nightmares" >}}
+
+        ### Power, Money, Empire
+
+        {{< movie_carousel group="power_money_empire" >}}
+
+        ### Found Footage (panic as cinematography)
+
+        {{< movie_carousel group="found_footage" >}}
+
+        ### Wit & Self-Delusion
+
+        {{< movie_carousel group="wit_self_delusion" >}}
+---
