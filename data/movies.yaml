@@ -59,61 +59,61 @@ obsession_desire_possession:
     title: "Possession"
     year: 1981
     director: "Andrzej Żuławski"
-    poster: ""
+    poster: "/movies/possession.jpg"
   - id: the-piano-teacher
     title: "The Piano Teacher"
     year: 2001
     director: "Michael Haneke"
-    poster: ""
+    poster: "/movies/the_piano_teacher.jpg"
   - id: match-point
     title: "Match Point"
     year: 2005
     director: "Woody Allen"
-    poster: ""
+    poster: "/movies/match_point.jpg"
   - id: the-killing-of-a-sacred-deer
     title: "The Killing of a Sacred Deer"
     year: 2017
     director: "Yorgos Lanthimos"
-    poster: ""
+    poster: "/movies/the_killing_of_a_sacred_deer.jpg"
 
 labyrinths_identity_narrative_unreality:
   - id: mulholland-drive
     title: "Mulholland Drive"
     year: 2001
     director: "David Lynch"
-    poster: ""
+    poster: "/movies/mulholland_drive.jpg"
   - id: la-mala-educacion
     title: "La mala educación"
     year: 2004
     director: "Pedro Almodóvar"
-    poster: ""
+    poster: "/movies/la_mala_educacion.jpg"
   - id: poor-things
     title: "Poor Things"
     year: 2023
     director: "Yorgos Lanthimos"
-    poster: ""
+    poster: "/movies/poor_things.png"
 
 dream_memory_autobiography:
   - id: amarcord
     title: "Amarcord"
     year: 1973
     director: "Federico Fellini"
-    poster: ""
+    poster: "/movies/amarcord.jpg"
   - id: the-hand-of-god
     title: "The Hand of God"
     year: 2021
     director: "Paolo Sorrentino"
-    poster: ""
+    poster: "/movies/the_hand_of_god.jpg"
   - id: mirror
     title: "Mirror (Zerkalo)"
     year: 1975
     director: "Andrei Tarkovsky"
-    poster: ""
+    poster: "/movies/the_mirror.jpg"
   - id: endless-poetry
     title: "Endless Poetry"
     year: 2016
     director: "Alejandro Jodorowsky"
-    poster: ""
+    poster: "/movies/endless_poetry.jpg"
 
 awe_sublime_cosmic_formal:
   - id: 2001-a-space-odyssey
