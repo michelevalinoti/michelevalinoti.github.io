@@ -7,7 +7,7 @@ tags:
   - Local Governance
   - Large Language Models
 summary: >
-  Built a national database of Criminal Activity Nuisance Ordinances (CANOs) by collecting municipal codes, identifying relevant provisions at scale, and extracting structured policy attributes. The project links legal design to patterns in adoption and housing-related outcomes.
+  Built a national database of Criminal Activity Nuisance Ordinances (CANOs) by collecting municipal codes, identifying relevant provisions at scale, and extracting structured policy attributes. The project uses the resulting legal design measures to describe patterns of adoption and to characterize how adoption timing relates to housing and public-safety outcomes.
 
 image:
   filename: "featured.png"
@@ -35,29 +35,36 @@ with Bryant Moy, Moin Khan
 
 ## Overview
 
-Criminal Activity Nuisance Ordinances (CANOs) are municipal laws that treat repeated “nuisance” incidents as a **property-level problem**, potentially shifting enforcement pressure onto property owners and residents. This project builds a national database of CANOs from municipal codes, enabling systematic evidence on where these ordinances exist, how they are written, and how they relate to adoption patterns and housing outcomes.
+Criminal Activity Nuisance Ordinances (CANOs) are local laws that treat repeated “nuisance” incidents as a **property-level** problem, often shifting compliance and enforcement pressure toward property owners and tenants. This project builds a national database of CANOs from municipal codes, enabling systematic description of where these ordinances appear, how they are written, and how adoption correlates with local conditions and downstream housing-related measures.
 
 {{< figure
-  src="map_us_cano_all_in_one.png"
-  caption="Geographic distribution of jurisdictions identified as having a CANO, illustrating broad prevalence and regional clustering."
->}}
+src="map_us_cano_all_in_one.png"
+caption="Geographic distribution of jurisdictions identified as having at least one CANO in the municipal-code corpus, illustrating broad prevalence and clustering across states."
+
+}}
 
 ## Data & Pipeline
 
-The database is built in three steps:
+The database is constructed in three steps:
 
-1. **Collection**: scrape and standardize municipal codes across multiple legal publishers.
-2. **Classification**: identify CANO provisions using a Long-Document Encoder (LED), a transformer architecture.
-3. **Attribute extraction**: recover structured policy features (e.g., enforcement structure, owner obligations, eviction-related language, timing) from ordinance text using an LLM-based schema.
+1. **Collection**: scrape and standardize municipal codes from major codification platforms and municipal websites, and select candidate provisions using nuisance-related keywords.
+2. **Classification**: identify CANO articles using a long-document classification pipeline (a conservative long-context model benchmarked against hand-labeled datasets), designed to distinguish CANOs from adjacent ordinance types.
+3. **Attribute extraction**: extract structured policy features from ordinance text using an LLM-based schema (e.g., incident thresholds, liable party, penalty tools, and whether eviction is mandated/encouraged/optional/silent).
+
+## Methods
+
+Empirically, the project uses the resulting jurisdiction-by-year adoption panel to:
+
+- **Describe adoption patterns** and how adoption rates vary with local demographics and baseline conditions.
+- **Characterize associations with outcomes** by linking adoption timing to administrative eviction panels and crime/arrest panels, using standard staggered-adoption event-time and difference-in-differences-style designs as descriptive summaries (interpreted cautiously given potential confounding and measurement error in both policy timing and coverage).
 
 ## Results & Takeaways
 
-The database supports three high-level takeaways:
-
-- **Widespread but uneven adoption**: CANOs are present in many jurisdictions, with substantial regional clustering and local variation in legal design.
-- **Housing-facing outcome associations**: in event-time analyses around adoption, changes are more consistently visible in **housing instability measures** (e.g., eviction-related outcomes) than in **public-safety measures** (e.g., arrests), consistent with these policies operating primarily through housing and landlord-tenant channels rather than through direct deterrence of crime.
+- **Widespread but uneven adoption**: CANOs appear in a large number of jurisdictions in the corpus, with substantial cross-state variation.
+- **Outcome patterns concentrate in housing measures**: around adoption, event-time patterns are more consistently visible in eviction-related outcomes than in arrest/crime measures. The magnitudes and precision vary by specification and by ordinance design, so these results are best read as descriptive patterns rather than definitive causal effects.
 
 {{< figure
-  src="es_three_outcomes.png"
-  caption="Event-time estimates around CANO adoption for eviction-related outcomes relative to the pre-adoption baseline."
->}}
+src="es_three_outcomes.png"
+caption="Event-time estimates around CANO adoption for eviction-related outcomes, shown relative to a pre-adoption baseline; post-adoption patterns are summarized alongside pre-trend diagnostics."
+
+}}
