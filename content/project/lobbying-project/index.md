@@ -41,10 +41,9 @@ This project studies how political access is allocated when lawmakers’ time an
 A central lens is to treat lobbying as an **intermediated access market**: clients choose whether (and how) to lobby, while intermediaries help route attention toward particular lawmakers under capacity constraints.
 
 {{< figure
-src="network_lobbyist_client_combo_.png"
-caption="Example of a tripartite network built from New York State lobbying disclosures: clients retain lobbyists/firms who contact legislators."
-
-}}
+  src="network_lobbyist_client_combo_.png"
+  caption="Example of a tripartite network built from New York State lobbying disclosures: clients retain lobbyists/firms who contact legislators."
+>}}
 
 ## Data & Setting
 
@@ -65,7 +64,6 @@ The analysis combines:
 - **Counterfactuals emphasize distributional shifts**: model-based simulations indicate that removing commercial intermediaries materially changes who participates and which lawmakers are targeted, with comparatively modest changes in aggregate outcomes but more noticeable redistribution across organization size and baseline access.
 
 {{< figure
-src="contacts_pct_change_by_asset_bin_1219.png"
-caption="Model-based counterfactual simulations under alternative lobbying environments (e.g., removing commercial intermediaries and reallocating relationship capital). The figure summarizes how predicted contact activity shifts across organization size bins."
-
-}}
+  src="contacts_pct_change_by_asset_bin_1219.png"
+  caption="Model-based counterfactual simulations under alternative lobbying environments (e.g., removing commercial intermediaries and reallocating relationship capital). The figure summarizes how predicted contact activity shifts across organization size bins."
+>}}

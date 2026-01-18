@@ -47,8 +47,7 @@ A key object is **local product diversity**: how varied restaurants are within a
 {{< figure
 src="log_disparity_0.png"
 caption="Figure 1a: Tract-level product diversity in NYC. The map visualizes neighborhood variation using a composite index built from complementary measures of within-tract similarity and cuisine concentration."
-
-}}
+>}}
 
 ## Methods
 
@@ -65,5 +64,4 @@ The evidence here is best read as characterization rather than causal attributio
 {{< figure
 src="OLS_params_diversity_num_set_difference_delivery_physical__.png"
 caption="Figure 9a: Associations between tract-level product diversity and delivery exposure as the definition of ‘non-local’ competition varies across distance thresholds (OLS with tract controls)."
-
-}}
+>}}

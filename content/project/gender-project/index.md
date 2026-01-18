@@ -7,6 +7,10 @@ categories:
 tags:
   - Text-as-Data
   - Gender Bias
+links:
+  - icon: file-text
+    name: Working paper
+    url: "/publication/gender-paper/"
 summary: >
   This project measures how political candidates are described in the news using a large corpus of election-related coverage. It treats embedding geometry as an outcome, tracks differences across contexts and over time, and uses a disentangled representation to separate topic/content from framing/style.
 image:
@@ -24,9 +28,6 @@ project:
 links:
   - icon: file-text
     name: Working paper
-    url: "/publication/gender-paper/"
-  - icon: file-text
-    name: Draft
     url: "/publication/women-media-politics/"
 ---
 
