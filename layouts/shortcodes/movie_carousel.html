@@ -4,14 +4,14 @@
 {{- if gt (len $movies) 0 -}}
 <div class="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4">
   {{- range $movies }}
-  <div class="snap-start">
+  <div class="snap-start flex-none">
     {{- if .poster }}
-    <div class="mb-2 w-[180px] h-[270px] overflow-hidden rounded shadow">
+    <div class="mb-2 overflow-hidden rounded shadow" style="width: 180px; height: 270px;">
       <img src="{{ .poster }}" alt="{{ .title }} poster" class="w-full h-full object-cover">
     </div>
     {{- end }}
-    <div class="font-semibold w-[180px]">{{ .title }}</div>
-    <div class="text-sm text-gray-400 dark:text-gray-400 w-[180px]">{{ .year }} · {{ .director }}</div>
+    <div class="font-semibold" style="width: 180px;">{{ .title }}</div>
+    <div class="text-sm text-gray-400 dark:text-gray-400" style="width: 180px;">{{ .year }} · {{ .director }}</div>
   </div>
   {{- end }}
 </div>
