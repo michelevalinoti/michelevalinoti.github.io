@@ -39,8 +39,7 @@ The unit of analysis is the **census tract**. Restaurant supply is built from Ye
 {{< figure
 src="foot_traffic_all_daytime.png"
 caption="Figure 3a: Foot-traffic patterns from mobile-location data. The figure summarizes how far visits travel and how visit geography varies across NYC, providing a descriptive benchmark for the role of distance in restaurant demand."
-
-}}
+>}}
 
 A key object is **local product diversity**: how varied restaurants are within a tract, based on similarity of cuisine labels and how concentrated (or dispersed) cuisine groups are within neighborhoods.
 
