@@ -31,6 +31,8 @@ links:
     url: "/publication/cano-paper/slides_chapter2_website.pdf"
 ---
 
+with Bryant Moy, Moin Khan
+
 ## Overview
 
 Criminal Activity Nuisance Ordinances (CANOs) are municipal laws that treat repeated “nuisance” incidents as a **property-level problem**, potentially shifting enforcement pressure onto property owners and residents. This project builds a national database of CANOs from municipal codes, enabling systematic evidence on where these ordinances exist, how they are written, and how they relate to adoption patterns and housing outcomes.
@@ -45,7 +47,7 @@ Criminal Activity Nuisance Ordinances (CANOs) are municipal laws that treat repe
 The database is built in three steps:
 
 1. **Collection**: scrape and standardize municipal codes across multiple legal publishers.
-2. **Classification**: identify CANO provisions using long-document NLP methods designed for legal text.
+2. **Classification**: identify CANO provisions using a Long-Document Encoder (LED), a transformer architecture.
 3. **Attribute extraction**: recover structured policy features (e.g., enforcement structure, owner obligations, eviction-related language, timing) from ordinance text using an LLM-based schema.
 
 ## Results & Takeaways
@@ -53,10 +55,9 @@ The database is built in three steps:
 The database supports three high-level takeaways:
 
 - **Widespread but uneven adoption**: CANOs are present in many jurisdictions, with substantial regional clustering and local variation in legal design.
-- **Adoption correlates**: CANO incidence is systematically related to local demographic composition in a way consistent with a “threat”-style adoption pattern (without pinning the interpretation on any single mechanism).
-- **Housing-facing associations**: linking adoption timing to outcome panels suggests stronger and more persistent associations with **housing instability measures** than with **public-safety measures**, especially where ordinances rely on eviction-related enforcement channels.
+- **Housing-facing outcome associations**: in event-time analyses around adoption, changes are more consistently visible in **housing instability measures** (e.g., eviction-related outcomes) than in **public-safety measures** (e.g., arrests), consistent with these policies operating primarily through housing and landlord-tenant channels rather than through direct deterrence of crime.
 
 {{< figure
   src="es_three_outcomes.png"
-  caption="Outcome dynamics around CANO adoption: estimates are shown relative to a pre-adoption baseline to summarize how housing-related outcomes evolve after adoption."
+  caption="Event-time estimates around CANO adoption for eviction-related outcomes relative to the pre-adoption baseline."
 >}}
