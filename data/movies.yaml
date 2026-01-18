@@ -154,17 +154,17 @@ power_money_empire:
     title: "The Godfather"
     year: 1972
     director: "Francis Ford Coppola"
-    poster: ""
+    poster: "/movies/the_godfather.jpg"
   - id: there-will-be-blood
     title: "There Will Be Blood"
     year: 2007
     director: "Paul Thomas Anderson"
-    poster: ""
+    poster: "/movies/there_will_be_blood.jpg"
   - id: barry-lyndon
     title: "Barry Lyndon"
     year: 1975
     director: "Stanley Kubrick"
-    poster: ""
+    poster: "/movies/barry_lyndon.jpg"
 
 found_footage:
   - id: rec

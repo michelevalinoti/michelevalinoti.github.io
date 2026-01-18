@@ -53,11 +53,4 @@ sections:
 
         {{< movie_carousel group="power_money_empire" >}}
 
-        ### Found Footage (panic as cinematography)
-
-        {{< movie_carousel group="found_footage" >}}
-
-        ### Wit & Self-Delusion
-
-        {{< movie_carousel group="wit_self_delusion" >}}
 ---
