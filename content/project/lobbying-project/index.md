@@ -6,7 +6,6 @@ categories:
   - research
 tags:
   - Lobbying
-  - Political Economy
   - Structural Models
 summary: >
   Political access is scarce. This project studies how commercial lobbying firms
@@ -34,41 +33,39 @@ links:
     url: "/publication/lobbying-paper/slides_chapter1_website.pdf"
 ---
 
+
 ## Overview
 
-This project studies how political access is allocated when lawmakers’ time and attention are scarce, and how **commercial lobbying firms** act as intermediaries between clients and legislators. Using unusually detailed disclosure data, I track **who contacts whom, through which intermediary, and on behalf of which client**, and connect access patterns to downstream public-resource outcomes for a large set of organizations.
+This project studies how political access is allocated when lawmakers’ time and attention are scarce, and how **commercial lobbying firms** mediate access between clients and legislators. Using unusually granular disclosure data, I track *who contacts whom, through which intermediary, and on behalf of which client*, and connect access patterns to downstream public-resource outcomes for a large set of organizations.
+
+A central lens is to treat lobbying as an **intermediated access market**: clients choose whether (and how) to lobby, while intermediaries help route attention toward particular lawmakers under capacity constraints.
 
 {{< figure
-  src="network_lobbyist_client_combo_.png"
-  caption="Tripartite network built from New York State lobbying disclosures: clients (left) retain lobbyists/firms (middle) who contact legislators (right). Links represent disclosed contacts, illustrating how a small set of intermediaries can sit between many clients and high-demand policymakers."
->}}
+src="network_lobbyist_client_combo_.png"
+caption="Example of a tripartite network built from New York State lobbying disclosures: clients retain lobbyists/firms who contact legislators."
 
-A core lens is to view lobbying as an **intermediated access market**: clients choose whether (and how) to lobby, while intermediaries help route attention toward particular lawmakers under capacity constraints.
+}}
 
 ## Data & Setting
 
-The setting is New York State, where disclosures allow measurement of lobbying at the level of **contacts to specific targets** rather than only spending aggregates. The project links lobbying activity to administrative outcomes in a way that makes the access-allocation problem observable at fine granularity.
+The setting is New York State, where disclosures make it possible to observe lobbying at the level of **contacts to specific targets**, rather than only spending aggregates. The project focuses on legislative contacts and connects them to administrative records on grants and contracts for tax-exempt organizations.
 
 ## Methods
 
-The analysis has two parts:
+The analysis combines:
 
-- **Descriptive evidence** on how contacts are distributed across lawmakers and how intermediation varies with institutional positions and relationships.
-- A **structural model** with two stages: clients choose organizational form (e.g., in-house, commercial firm, or both), and lawmakers allocate meetings across client–intermediary pairs subject to attention constraints. The model is designed to capture how relationship capital and scarce attention jointly shape access.
+- **Descriptive evidence** on how contacts are distributed across lawmakers and how the mix of in-house vs. commercial intermediation varies with lawmakers’ institutional positions.
+- A **two-stage structural model** aligned with the institutional environment: in Stage 1, clients choose an organizational form (e.g., in-house, commercial firm, or both) and negotiate fees; in Stage 2, lawmakers allocate meetings across client–lobbyist pairs subject to capacity constraints. Access then enters a concave production function, allowing additional meetings to have diminishing marginal impact on downstream outcomes.
 
 ## Results & Takeaways
 
-- **Access is concentrated**: lobbying activity disproportionately targets lawmakers with greater institutional leverage (e.g., leadership and key committee roles), and commercial lobbying firms play an outsized role in reaching this high-value set.
-
-- **Relationship capital matters**: personal political ties—such as prior employment links (“revolving door”) and campaign-based relationships—predict who gets meetings, above and beyond issue alignment and other fixed differences across clients and politicians.
-
-- **Access connects to grants**: among nonprofit organizations, lobbying engagement and intensity are positively associated with grant outcomes, even after accounting for broad measures of organizational scale.
-
-- **Counterfactuals sharpen the mechanism**: shutting down lobbying compresses access broadly; removing commercial intermediaries shifts representation toward in-house lobbying and sharply reduces meeting activity; reallocating “relationship capital” to in-house structures recovers only part of the lost access, highlighting that intermediation is not just “more effort,” but a distinct technology for organizing access.
-
-Overall, the results emphasize distribution: intermediaries can meaningfully reshape **who** participates, **which lawmakers** receive attention, and **how relationship capital is deployed**—even when aggregate outcomes move less than the raw meeting counts might suggest.
+- **Access is unevenly distributed**: contacts disproportionately flow to lawmakers with greater institutional leverage, and commercial lobbying firms appear especially active in reaching this high-demand segment.
+- **Observable relationship capital lines up with access patterns**: campaign-based ties and revolving-door connections are associated with higher contact probabilities and greater contact intensity, even after accounting for persistent differences across clients, intermediaries, and lawmakers.
+- **Access and outcomes move together**: lobbying engagement and intensity are positively associated with grants among tax-exempt organizations.
+- **Counterfactuals emphasize distributional shifts**: model-based simulations indicate that removing commercial intermediaries materially changes who participates and which lawmakers are targeted, with comparatively modest changes in aggregate outcomes but more noticeable redistribution across organization size and baseline access.
 
 {{< figure
-  src="contacts_pct_change_by_asset_bin_1219.png"
-  caption="Counterfactual simulations of access and meeting activity under alternative lobbying technologies (baseline vs. removing lobbying, removing commercial firms, and reassigning relationship capital). The figure summarizes how changes in intermediation reshape the distribution of contacts across organizations."
->}}
+src="contacts_pct_change_by_asset_bin_1219.png"
+caption="Model-based counterfactual simulations under alternative lobbying environments (e.g., removing commercial intermediaries and reallocating relationship capital). The figure summarizes how predicted contact activity shifts across organization size bins."
+
+}}
