@@ -120,34 +120,34 @@ awe_sublime_cosmic_formal:
     title: "2001: A Space Odyssey"
     year: 1968
     director: "Stanley Kubrick"
-    poster: ""
+    poster: "/movies/2001_a_space_odyssey.jpg"
   - id: solaris
     title: "Solaris"
     year: 1972
     director: "Andrei Tarkovsky"
-    poster: ""
+    poster: "/movies/solaris.jpg"
   - id: arrival
     title: "Arrival"
     year: 2016
     director: "Denis Villeneuve"
-    poster: ""
+    poster: "/movies/arrival.jpg"
 
 totalitarian_nightmares:
   - id: come-and-see
     title: "Come and See"
     year: 1985
     director: "Elem Klimov"
-    poster: ""
+    poster: "/movies/come_and_see.jpg"
   - id: the-lives-of-others
     title: "The Lives of Others (Das Leben der Anderen)"
     year: 2006
     director: "Florian Henckel von Donnersmarck"
-    poster: ""
+    poster: "/movies/the_lives_of_others.jpg"
   - id: the-conformist
     title: "The Conformist"
     year: 1970
     director: "Bernardo Bertolucci"
-    poster: ""
+    poster: "/movies/the_comformist.jpg"
 
 power_money_empire:
   - id: the-godfather

@@ -6,8 +6,8 @@
   {{- range $movies }}
   <div class="snap-start flex-none">
     {{- if .poster }}
-    <div class="mb-2 overflow-hidden rounded shadow" style="width: 180px; height: 270px;">
-      <img src="{{ .poster }}" alt="{{ .title }} poster" class="w-full h-full object-cover">
+    <div class="mb-2 overflow-hidden rounded shadow flex items-center justify-center bg-black/10 dark:bg-white/5" style="width: 180px; height: 270px;">
+      <img src="{{ .poster }}" alt="{{ .title }} poster" class="max-w-full max-h-full object-contain">
     </div>
     {{- end }}
     <div class="font-semibold" style="width: 180px;">{{ .title }}</div>
