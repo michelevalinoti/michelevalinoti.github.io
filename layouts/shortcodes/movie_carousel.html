@@ -4,10 +4,10 @@
 {{- if gt (len $movies) 0 -}}
 <div class="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4">
   {{- range $movies }}
-  <div class="min-w-[180px] snap-start">
+  <div class="min-w-[180px] max-w-[180px] snap-start">
     {{- if .poster }}
     <div class="mb-2">
-      <img src="{{ .poster }}" alt="{{ .title }} poster" class="rounded shadow max-h-64 w-auto">
+      <img src="{{ .poster }}" alt="{{ .title }} poster" class="rounded shadow w-full h-64 object-cover">
     </div>
     {{- end }}
     <div class="font-semibold">{{ .title }}</div>
@@ -18,4 +18,3 @@
 {{- else -}}
 <p class="text-sm text-gray-400 dark:text-gray-500">No movies added yet.</p>
 {{- end -}}
-

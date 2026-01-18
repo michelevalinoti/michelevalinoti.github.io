@@ -37,17 +37,17 @@ all_time:
     title: "Everything Everywhere All at Once"
     year: 2022
     director: "Daniel Kwan & Daniel Scheinert"
-    poster: ""
+    poster: "/movies/everything_everywhere_all_at_once.jpg"
   - id: stalker
     title: "Stalker"
     year: 1979
     director: "Andrei Tarkovsky"
-    poster: ""
+    poster: "/movies/stalker.jpg"
   - id: a-clockwork-orange
     title: "A Clockwork Orange"
     year: 1971
     director: "Stanley Kubrick"
-    poster: ""
+    poster: "/movies/a_clockwork_orange.jpg"
   - id: oldboy
     title: "Oldboy"
     year: 2003
@@ -194,58 +194,3 @@ wit_self_delusion:
     year: 1974
     director: "Mel Brooks"
     poster: ""
----
-sections:
-  - block: markdown
-    content:
-      title: Personal
-      subtitle: Things I enjoy outside of research
-      text: |-
-        Here is a small, evolving selection of films I love, grouped by year and by theme. Posters will come later — for now, just titles, years, and directors.
-
-        ### 2025
-
-        {{< movie_carousel group="2025" >}}
-
-        ### 2024
-
-        {{< movie_carousel group="2024" >}}
-
-        ### All‑Time
-
-        {{< movie_carousel group="all_time" >}}
-
-        ---
-
-        ### Obsession, Desire, Possession
-
-        {{< movie_carousel group="obsession_desire_possession" >}}
-
-        ### Labyrinths (identity, narrative, unreality)
-
-        {{< movie_carousel group="labyrinths_identity_narrative_unreality" >}}
-
-        ### Dream, Memory, Autobiography
-
-        {{< movie_carousel group="dream_memory_autobiography" >}}
-
-        ### Awe / The Sublime (cosmic, formal, grand)
-
-        {{< movie_carousel group="awe_sublime_cosmic_formal" >}}
-
-        ### Totalitarian Nightmares (state, surveillance, ideology)
-
-        {{< movie_carousel group="totalitarian_nightmares" >}}
-
-        ### Power, Money, Empire
-
-        {{< movie_carousel group="power_money_empire" >}}
-
-        ### Found Footage (panic as cinematography)
-
-        {{< movie_carousel group="found_footage" >}}
-
-        ### Wit & Self-Delusion
-
-        {{< movie_carousel group="wit_self_delusion" >}}
----
