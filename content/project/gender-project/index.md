@@ -50,8 +50,7 @@ The dataset combines election records with a large corpus of election-related ne
 {{< figure
 src="tsne_base.png"
 caption="Two-dimensional t-SNE visualization of candidate-linked text embeddings. The projection is used for visualization and does not preserve all high-dimensional distances."
-
-}}
+>}}
 
 2. **Dynamics and conditioning.** The same embedding-based separation measures are tracked over time and across offices, and are also computed within more comparable subsets to distinguish broad composition shifts from within-context differences.
 
@@ -60,5 +59,4 @@ caption="Two-dimensional t-SNE visualization of candidate-linked text embeddings
 {{< figure
 src="variance_explained_differences.png"
 caption="Variance explained by topic vs. style components in the disentangled representation, summarizing how much structure each channel captures in candidate-linked language."
-
-}}
+>}}

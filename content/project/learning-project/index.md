@@ -36,7 +36,10 @@ The analysis is model-based. The platform’s state evolves with the **number of
 
 The framework extends a dynamic posted-price model of data acquisition by adding **Bayesian learning** about seller arrivals. The platform’s decision problem is formulated as a dynamic program in which the state includes both (i) current market size and (ii) a belief over a small set of plausible arrival-rate regimes. This turns the platform’s optimization into a Markov decision process over an expanded state space.
 
-{{< figure src="nu_20.png" caption=""Value function as a function of the number of acquired databases for a fixed level of belief." }}
+{{< figure
+  src="nu_20.png"
+  caption="Value function as a function of the number of acquired databases for a fixed level of belief."
+>}}
 
 Two sets of policies are derived:
 
@@ -47,10 +50,16 @@ Two sets of policies are derived:
 
 Learning changes the platform’s behavior in predictable but nontrivial ways. Relative to full-information benchmarks, the learning platform generally has reasons to adjust payments not only for immediate acquisition value, but also for how payments affect informativeness of what is observed.
 
-{{< figure src="ic_20,30.png" caption="Comparison of seller payments and MDP values under a learning policy versus a full-information benchmark at a fixed market size." }}
+{{< figure
+  src="ic_20,30.png"
+  caption="Comparison of seller payments and MDP values under a learning policy versus a full-information benchmark at a fixed market size."
+>}}
 
 A key caution is that **learning and incentive compatibility can collide** when sellers are strategic about *when* to participate. In particular, a Markov learning policy can create situations where delaying participation makes the platform more pessimistic, and pessimism can raise the payment a seller expects to receive later. The thesis proposes an **incentive-compatible variant** (via an “ironed” payment adjustment) that preserves truthful timing incentives at the cost of some surplus relative to the fully optimal learning rule.
 
-{{< figure src="buyersurplus_environments_075_09.png" caption="Simulation comparison of buyers’ surplus over time across full-information, learning, and non-learning scenarios under alternative arrival-rate and discount-factor settings." }}
+{{< figure
+  src="buyersurplus_environments_075_09.png"
+  caption="Simulation comparison of buyers’ surplus over time across full-information, learning, and non-learning scenarios under alternative arrival-rate and discount-factor settings."
+>}}
 
 Extensions discuss how results change when (i) seller arrivals are observable, (ii) buyers arrive stochastically, and (iii) the buyer value function is known only up to parameters—highlighting a broader “learning vs. earning” tension on the demand side as well.

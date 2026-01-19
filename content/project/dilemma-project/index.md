@@ -44,7 +44,7 @@ A few patterns show up consistently across the simulation exercises:
 - **Forgiveness can help once cooperation exists.** “Generous” variants can dampen error-driven spirals and restore mutual cooperation, although they can be less protected in environments with many defectors.
 
 {{< figure
-  src="fitness.png"
+  src="frequency.png"
   caption="Simulation comparison showing how introducing mistake probabilities changes relative performance and long-run frequencies of TFT and a more forgiving variant (GTFT) alongside unconditional types."
 >}}
 
