@@ -45,7 +45,7 @@ A few patterns show up consistently across the simulation exercises:
 
 {{< figure
   src="frequency.png"
-  caption="Simulation comparison showing how introducing mistake probabilities changes relative performance and long-run frequencies of TFT and a more forgiving variant (GTFT) alongside unconditional types."
+  caption="Simulation comparison showing how introducing mistake probabilities (1%) changes relative performance and long-run frequencies of TFT and a more forgiving variant (GTFT) alongside unconditional types."
 >}}
 
 Finally, the thesis highlights that **starting cooperation** can be harder than sustaining it: even if cooperative strategies can do well once they are common, they may fail to invade from rarity in a well-mixed population. This motivates the role of clustered encounters or other deviations from random mixing as a practical route for cooperation to gain a foothold.

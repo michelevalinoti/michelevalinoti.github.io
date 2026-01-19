@@ -23,7 +23,8 @@ links:
   - icon: brands/github
     name: Code
     url: "https://github.com/michelevalinoti/Spatial-Competition-Restaurants"
-summary: < Combines restaurant listings, delivery-network availability, and mobility data to characterize how exposure to delivery competition relates to local cuisine variety across NYC.
+summary: >
+  Combines restaurant listings, delivery-network availability, and mobility data to characterize how exposure to delivery competition relates to local cuisine variety across NYC.
 ---
 
 ## Overview
