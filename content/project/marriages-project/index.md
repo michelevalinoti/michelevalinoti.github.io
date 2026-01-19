@@ -1,5 +1,5 @@
 ---
-title: Tying the Knot: Marriage Patterns in Italy, 19th–20th Century
+title: "Tying the Knot: Marriage Patterns in Italy, 19th–20th Century"
 date: 2024-09-10
 external_link: ''
 tags:
