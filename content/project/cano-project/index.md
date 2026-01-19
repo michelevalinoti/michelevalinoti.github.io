@@ -40,8 +40,7 @@ Criminal Activity Nuisance Ordinances (CANOs) are local laws that treat repeated
 {{< figure
 src="map_us_cano_all_in_one.png"
 caption="Geographic distribution of jurisdictions identified as having at least one CANO in the municipal-code corpus, illustrating broad prevalence and clustering across states."
-
-}}
+>}}
 
 ## Data & Pipeline
 
@@ -66,5 +65,4 @@ Empirically, the project uses the resulting jurisdiction-by-year adoption panel 
 {{< figure
 src="es_three_outcomes.png"
 caption="Event-time estimates around CANO adoption for eviction-related outcomes, shown relative to a pre-adoption baseline; post-adoption patterns are summarized alongside pre-trend diagnostics."
-
-}}
+>}}
