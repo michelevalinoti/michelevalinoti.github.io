@@ -35,30 +35,30 @@ with Sahar Parsa
 
 ## Overview
 
-This project links U.S. elections to newspaper coverage to measure systematic differences in how male and female political candidates are discussed. The objective is measurement: to build transparent, scalable metrics of language that can be compared across offices, electoral environments, and time.
+This project links U.S. elections to newspaper coverage to characterize differences in how male and female political candidates are discussed. The goal is measurement: to build transparent, scalable metrics of candidate-linked language that can be compared across offices, electoral environments, and time.
 
-A key design choice is interpretability. The analysis uses a **disentangled text representation** that separates variation in *topic/content* from *framing/style*, then quantifies gendered differences along each dimension.
+A key design choice is interpretability. The analysis uses a **disentangled text representation** that separates variation in *topic/content* (what is being discussed) from *framing/style* (how it is being discussed), then summarizes gender-associated differences along each dimension.
 
 ## Data & Setting
 
-The dataset combines election records with a large corpus (1M+) of election-related news coverage, matched to candidates through a candidate-resolved text pipeline. The empirical focus is on patterns that persist across comparable political contexts.
+The dataset combines election records with a large corpus of election-related news coverage, matched to candidates through a candidate-resolved text pipeline. The empirical focus is on patterns that can be computed *within comparable political contexts* (e.g., office, party environment, incumbency status), to reduce purely compositional comparisons.
 
 ## Methods
 
-The measurement strategy has three pieces:
-
-1. **Embedding-based representations.** Candidate-linked text is mapped into a semantic vector space. Differences are summarized using standard geometric comparisons (e.g., distances, centroid similarity), which are easy to compute consistently across contexts.
+1. **Embedding-based representations.** Candidate-linked text is mapped into a semantic vector space. Differences are summarized using geometric comparisons (e.g., centroid distances/similarities), which can be computed consistently across contexts.
 
 {{< figure
-  src="tsne_base.png"
-  caption="Two-dimensional t-SNE visualization of candidate-linked text embeddings."
->}}
+src="tsne_base.png"
+caption="Two-dimensional t-SNE visualization of candidate-linked text embeddings. The projection is used for visualization and does not preserve all high-dimensional distances."
 
-2. **Dynamics and conditioning.** The same separation metrics are tracked over time and across offices, and can be computed within more comparable electoral contexts to distinguish composition effects from within-context differences.
+}}
 
-3. **Disentangling content and framing.** To separate “what” from “how,” the project estimates a representation that decomposes each text into topic and style components, and then studies whether gender differences load more strongly on one channel or the other.
+2. **Dynamics and conditioning.** The same embedding-based separation measures are tracked over time and across offices, and are also computed within more comparable subsets to distinguish broad composition shifts from within-context differences.
+
+3. **Disentangling content and framing.** To separate “what” from “how,” the project estimates a representation that decomposes text into topic and style components. The analysis then assesses whether gender-associated differences load more strongly on content-related dimensions, style-related dimensions, or both.
 
 {{< figure
-  src="variance_explained_differences.png"
-  caption="Variance explained by topic vs. style components. The figure reports the share of variation captured by principal components in the disentangled representation."
->}}
+src="variance_explained_differences.png"
+caption="Variance explained by topic vs. style components in the disentangled representation, summarizing how much structure each channel captures in candidate-linked language."
+
+}}
