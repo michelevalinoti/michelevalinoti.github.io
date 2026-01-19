@@ -43,9 +43,14 @@ A few patterns show up consistently across the simulation exercises:
 - **TFT can stabilize cooperation under repeated interaction, but it is sensitive to noise.** When mistakes occur (accidental defections/cooperations), TFT can get trapped in retaliatory cycles that lower average payoffs, eroding its advantage.
 - **Forgiveness can help once cooperation exists.** “Generous” variants can dampen error-driven spirals and restore mutual cooperation, although they can be less protected in environments with many defectors.
 
-{{< figure src="fitness.png" caption="Simulation comparison showing how introducing mistake probabilities changes relative performance and long-run frequencies of TFT and a more forgiving variant (GTFT) alongside unconditional types." }}
+{{< figure
+  src="fitness.png"
+  caption="Simulation comparison showing how introducing mistake probabilities changes relative performance and long-run frequencies of TFT and a more forgiving variant (GTFT) alongside unconditional types."
+>}}
 
 Finally, the thesis highlights that **starting cooperation** can be harder than sustaining it: even if cooperative strategies can do well once they are common, they may fail to invade from rarity in a well-mixed population. This motivates the role of clustered encounters or other deviations from random mixing as a practical route for cooperation to gain a foothold.
 
-{{< figure src="cooperative_clusters_invasion.png" caption="Illustration of an ‘initial viability’ problem: when cooperators are rare in a largely defective population, they may fail to invade under random matching—suggesting a role for clustered interactions in jump-starting cooperation." }}```
-
+{{< figure
+  src="fitness.png"
+  caption="Illustration of an ‘initial viability’ problem: when cooperators are rare in a largely defective population, they may fail to invade under random matching—suggesting a role for clustered interactions in jump-starting cooperation."
+>}}
